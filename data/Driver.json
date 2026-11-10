@@ -1,0 +1,1082 @@
+[
+  {
+    "driver_id": "DRV-000001",
+    "name": "Alex Williams",
+    "license_number": "DL765169",
+    "phone": "+18998457273",
+    "status": "active",
+    "hired_date": "2023-11-29",
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000002",
+    "name": "Quinn Brown",
+    "license_number": "DL238777",
+    "phone": "+18170554336",
+    "status": "active",
+    "hired_date": "2022-12-16",
+    "created_at": "2025-11-03T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000003",
+    "name": "Morgan Garcia",
+    "license_number": "DL730484",
+    "phone": "+18768038873",
+    "status": "active",
+    "hired_date": "2023-09-01",
+    "created_at": "2025-11-20T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000004",
+    "name": "Alex Jackson",
+    "license_number": "DL729469",
+    "phone": "+19251019044",
+    "status": "active",
+    "hired_date": "2019-04-26",
+    "created_at": "2025-11-26T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000005",
+    "name": "Sam Gonzalez",
+    "license_number": "DL193310",
+    "phone": "+13845189232",
+    "status": "active",
+    "hired_date": "2018-10-23",
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000006",
+    "name": "Riley Jones",
+    "license_number": "DL643997",
+    "phone": "+16653762477",
+    "status": "active",
+    "hired_date": "2018-12-28",
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000007",
+    "name": "Harper Thomas",
+    "license_number": "DL651113",
+    "phone": "+15943399072",
+    "status": "active",
+    "hired_date": "2021-10-06",
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000008",
+    "name": "Sophia Gonzalez",
+    "license_number": "DL284707",
+    "phone": "+14973796711",
+    "status": "active",
+    "hired_date": "2019-07-26",
+    "created_at": "2025-11-15T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000009",
+    "name": "Quinn Johnson",
+    "license_number": "DL240263",
+    "phone": "+17115139913",
+    "status": "active",
+    "hired_date": "2019-10-03",
+    "created_at": "2025-11-16T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000010",
+    "name": "Blake Gonzalez",
+    "license_number": "DL556774",
+    "phone": "+18517282269",
+    "status": "active",
+    "hired_date": "2024-09-16",
+    "created_at": "2025-11-22T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000011",
+    "name": "Mason Perez",
+    "license_number": "DL128274",
+    "phone": "+18445716483",
+    "status": "active",
+    "hired_date": "2020-07-06",
+    "created_at": "2025-11-27T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000012",
+    "name": "Ethan Miller",
+    "license_number": "DL581882",
+    "phone": "+15226670611",
+    "status": "active",
+    "hired_date": "2024-03-22",
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000013",
+    "name": "Logan Miller",
+    "license_number": "DL236911",
+    "phone": "+15253167955",
+    "status": "active",
+    "hired_date": "2021-12-28",
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000014",
+    "name": "Rowan Davis",
+    "license_number": "DL772872",
+    "phone": "+19132753435",
+    "status": "active",
+    "hired_date": "2021-05-20",
+    "created_at": "2025-11-10T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000015",
+    "name": "Harper Thompson",
+    "license_number": "DL881167",
+    "phone": "+12846485373",
+    "status": "active",
+    "hired_date": "2018-03-16",
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000016",
+    "name": "Sam Williams",
+    "license_number": "DL633609",
+    "phone": "+14823656774",
+    "status": "leave",
+    "hired_date": "2018-08-13",
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000017",
+    "name": "Emerson Moore",
+    "license_number": "DL362552",
+    "phone": "+19676523966",
+    "status": "active",
+    "hired_date": "2022-06-02",
+    "created_at": "2025-11-16T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000018",
+    "name": "Skyler Wilson",
+    "license_number": "DL177859",
+    "phone": "+18487608674",
+    "status": "active",
+    "hired_date": "2021-01-26",
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000019",
+    "name": "Casey Thomas",
+    "license_number": "DL762925",
+    "phone": "+16832525057",
+    "status": "active",
+    "hired_date": "2020-06-01",
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000020",
+    "name": "Mason Anderson",
+    "license_number": "DL508377",
+    "phone": "+14094879448",
+    "status": "active",
+    "hired_date": "2022-12-30",
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000021",
+    "name": "Finley Rodriguez",
+    "license_number": "DL838373",
+    "phone": "+17738254017",
+    "status": "active",
+    "hired_date": "2023-12-10",
+    "created_at": "2025-11-03T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000022",
+    "name": "Mason Davis",
+    "license_number": "DL343000",
+    "phone": "+14386901466",
+    "status": "active",
+    "hired_date": "2020-06-09",
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000023",
+    "name": "Emerson Smith",
+    "license_number": "DL582106",
+    "phone": "+18495141880",
+    "status": "active",
+    "hired_date": "2019-11-29",
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000024",
+    "name": "Taylor Thompson",
+    "license_number": "DL544167",
+    "phone": "+19860861944",
+    "status": "active",
+    "hired_date": "2018-01-29",
+    "created_at": "2025-11-15T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000025",
+    "name": "Ethan Lee",
+    "license_number": "DL320458",
+    "phone": "+14520555571",
+    "status": "active",
+    "hired_date": "2020-02-24",
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000026",
+    "name": "Liam Martinez",
+    "license_number": "DL562523",
+    "phone": "+15036009983",
+    "status": "active",
+    "hired_date": "2021-12-14",
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000027",
+    "name": "Rowan Brown",
+    "license_number": "DL782902",
+    "phone": "+14664752123",
+    "status": "terminated",
+    "hired_date": "2018-07-21",
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000028",
+    "name": "Parker Moore",
+    "license_number": "DL545354",
+    "phone": "+19041351263",
+    "status": "leave",
+    "hired_date": "2019-04-22",
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000029",
+    "name": "Reese Rodriguez",
+    "license_number": "DL259012",
+    "phone": "+15260058890",
+    "status": "active",
+    "hired_date": "2018-11-04",
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000030",
+    "name": "Harper Rodriguez",
+    "license_number": "DL466455",
+    "phone": "+13200938218",
+    "status": "active",
+    "hired_date": "2021-03-25",
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000031",
+    "name": "Jordan Williams",
+    "license_number": "DL255118",
+    "phone": "+15048409201",
+    "status": "active",
+    "hired_date": "2023-06-20",
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000032",
+    "name": "Casey Jackson",
+    "license_number": "DL333537",
+    "phone": "+13417130029",
+    "status": "active",
+    "hired_date": "2020-12-04",
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000033",
+    "name": "Ethan Lopez",
+    "license_number": "DL338446",
+    "phone": "+14888159245",
+    "status": "active",
+    "hired_date": "2024-07-04",
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000034",
+    "name": "Alex Wilson",
+    "license_number": "DL270387",
+    "phone": "+12739631533",
+    "status": "active",
+    "hired_date": "2023-08-24",
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000035",
+    "name": "Alex Wilson",
+    "license_number": "DL518798",
+    "phone": "+12822615747",
+    "status": "active",
+    "hired_date": "2022-08-11",
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000036",
+    "name": "Liam Miller",
+    "license_number": "DL179872",
+    "phone": "+13004211320",
+    "status": "active",
+    "hired_date": "2023-12-15",
+    "created_at": "2025-11-01T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000037",
+    "name": "Evelyn Martinez",
+    "license_number": "DL946101",
+    "phone": "+16496146044",
+    "status": "active",
+    "hired_date": "2020-04-04",
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000038",
+    "name": "Sophia Lopez",
+    "license_number": "DL721830",
+    "phone": "+19557442445",
+    "status": "active",
+    "hired_date": "2022-10-07",
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000039",
+    "name": "Reese Wilson",
+    "license_number": "DL400236",
+    "phone": "+15790827500",
+    "status": "active",
+    "hired_date": "2021-07-26",
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000040",
+    "name": "Evelyn Jackson",
+    "license_number": "DL916106",
+    "phone": "+15843063484",
+    "status": "active",
+    "hired_date": "2022-07-04",
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000041",
+    "name": "Emma Martinez",
+    "license_number": "DL269707",
+    "phone": "+13376163929",
+    "status": "active",
+    "hired_date": "2019-09-11",
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000042",
+    "name": "Rowan Davis",
+    "license_number": "DL181332",
+    "phone": "+13062119231",
+    "status": "active",
+    "hired_date": "2022-10-30",
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000043",
+    "name": "Ethan Taylor",
+    "license_number": "DL543291",
+    "phone": "+16965426897",
+    "status": "active",
+    "hired_date": "2018-04-20",
+    "created_at": "2025-11-26T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000044",
+    "name": "Harper Smith",
+    "license_number": "DL359770",
+    "phone": "+19077540279",
+    "status": "active",
+    "hired_date": "2018-03-30",
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000045",
+    "name": "Reese Johnson",
+    "license_number": "DL183410",
+    "phone": "+19923472836",
+    "status": "active",
+    "hired_date": "2020-12-29",
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000046",
+    "name": "Cameron Johnson",
+    "license_number": "DL543476",
+    "phone": "+14454412977",
+    "status": "active",
+    "hired_date": "2019-03-14",
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000047",
+    "name": "Mia Perez",
+    "license_number": "DL169216",
+    "phone": "+16694786679",
+    "status": "active",
+    "hired_date": "2018-10-10",
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000048",
+    "name": "Avery Wilson",
+    "license_number": "DL793914",
+    "phone": "+12354184123",
+    "status": "active",
+    "hired_date": "2021-06-07",
+    "created_at": "2025-11-18T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000049",
+    "name": "Noah Anderson",
+    "license_number": "DL450529",
+    "phone": "+15958141710",
+    "status": "active",
+    "hired_date": "2019-04-27",
+    "created_at": "2025-11-22T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000050",
+    "name": "Hayden Martinez",
+    "license_number": "DL178184",
+    "phone": "+12301267675",
+    "status": "active",
+    "hired_date": "2020-11-17",
+    "created_at": "2025-11-26T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000051",
+    "name": "Lucas Taylor",
+    "license_number": "DL664765",
+    "phone": "+14415959082",
+    "status": "active",
+    "hired_date": "2021-06-18",
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000052",
+    "name": "Logan Gonzalez",
+    "license_number": "DL364373",
+    "phone": "+19194386707",
+    "status": "active",
+    "hired_date": "2018-06-23",
+    "created_at": "2025-11-03T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000053",
+    "name": "Olivia Perez",
+    "license_number": "DL703974",
+    "phone": "+18416368021",
+    "status": "active",
+    "hired_date": "2023-09-02",
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000054",
+    "name": "Jordan Martin",
+    "license_number": "DL129450",
+    "phone": "+17201156576",
+    "status": "active",
+    "hired_date": "2022-07-20",
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000055",
+    "name": "Noah Perez",
+    "license_number": "DL543064",
+    "phone": "+17842319141",
+    "status": "active",
+    "hired_date": "2024-04-25",
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000056",
+    "name": "Jamie Martinez",
+    "license_number": "DL985967",
+    "phone": "+13431473811",
+    "status": "active",
+    "hired_date": "2021-07-16",
+    "created_at": "2025-11-23T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000057",
+    "name": "Casey Miller",
+    "license_number": "DL747041",
+    "phone": "+12232058727",
+    "status": "active",
+    "hired_date": "2018-08-22",
+    "created_at": "2025-11-01T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000058",
+    "name": "Alex Garcia",
+    "license_number": "DL878799",
+    "phone": "+17351476118",
+    "status": "active",
+    "hired_date": "2021-09-05",
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000059",
+    "name": "Logan Davis",
+    "license_number": "DL909766",
+    "phone": "+14169176294",
+    "status": "active",
+    "hired_date": "2020-12-26",
+    "created_at": "2025-11-01T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000060",
+    "name": "Jordan Miller",
+    "license_number": "DL806841",
+    "phone": "+18977489834",
+    "status": "active",
+    "hired_date": "2019-03-14",
+    "created_at": "2025-12-01T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000061",
+    "name": "Logan Lopez",
+    "license_number": "DL677983",
+    "phone": "+18357422890",
+    "status": "active",
+    "hired_date": "2018-03-06",
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000062",
+    "name": "Reese Smith",
+    "license_number": "DL838542",
+    "phone": "+13110399018",
+    "status": "active",
+    "hired_date": "2018-11-27",
+    "created_at": "2025-11-01T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000063",
+    "name": "Drew Taylor",
+    "license_number": "DL682102",
+    "phone": "+17808007420",
+    "status": "active",
+    "hired_date": "2021-04-20",
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000064",
+    "name": "Evelyn Davis",
+    "license_number": "DL700219",
+    "phone": "+17276288266",
+    "status": "active",
+    "hired_date": "2023-06-08",
+    "created_at": "2025-11-01T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000065",
+    "name": "Cameron Brown",
+    "license_number": "DL494314",
+    "phone": "+13217317163",
+    "status": "terminated",
+    "hired_date": "2023-07-27",
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000066",
+    "name": "Taylor Wilson",
+    "license_number": "DL140283",
+    "phone": "+12986770613",
+    "status": "active",
+    "hired_date": "2021-10-01",
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000067",
+    "name": "Emma Moore",
+    "license_number": "DL517194",
+    "phone": "+17251160076",
+    "status": "active",
+    "hired_date": "2018-09-04",
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000068",
+    "name": "Rowan Martinez",
+    "license_number": "DL182203",
+    "phone": "+14106240680",
+    "status": "terminated",
+    "hired_date": "2019-06-13",
+    "created_at": "2025-11-10T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000069",
+    "name": "Cameron Johnson",
+    "license_number": "DL980436",
+    "phone": "+13023782002",
+    "status": "active",
+    "hired_date": "2020-04-08",
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000070",
+    "name": "Hayden Smith",
+    "license_number": "DL405303",
+    "phone": "+18083582342",
+    "status": "active",
+    "hired_date": "2019-01-24",
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000071",
+    "name": "Noah Davis",
+    "license_number": "DL316722",
+    "phone": "+18360139470",
+    "status": "active",
+    "hired_date": "2018-06-29",
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000072",
+    "name": "Morgan Gonzalez",
+    "license_number": "DL759928",
+    "phone": "+16603983521",
+    "status": "active",
+    "hired_date": "2022-07-26",
+    "created_at": "2025-11-23T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000073",
+    "name": "Olivia Garcia",
+    "license_number": "DL220100",
+    "phone": "+13265186986",
+    "status": "active",
+    "hired_date": "2019-05-26",
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000074",
+    "name": "Finley Thomas",
+    "license_number": "DL945993",
+    "phone": "+12376628850",
+    "status": "active",
+    "hired_date": "2022-06-13",
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000075",
+    "name": "Finley Gonzalez",
+    "license_number": "DL303835",
+    "phone": "+16166149383",
+    "status": "active",
+    "hired_date": "2021-11-28",
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000076",
+    "name": "Liam Brown",
+    "license_number": "DL614300",
+    "phone": "+17900765269",
+    "status": "terminated",
+    "hired_date": "2020-12-28",
+    "created_at": "2025-11-27T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000077",
+    "name": "Jamie Brown",
+    "license_number": "DL698646",
+    "phone": "+15378808709",
+    "status": "active",
+    "hired_date": "2024-08-31",
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000078",
+    "name": "Reese Jackson",
+    "license_number": "DL737518",
+    "phone": "+18629177517",
+    "status": "active",
+    "hired_date": "2023-12-26",
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000079",
+    "name": "Harper Moore",
+    "license_number": "DL750515",
+    "phone": "+12783853869",
+    "status": "active",
+    "hired_date": "2023-06-11",
+    "created_at": "2025-11-03T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000080",
+    "name": "Harper Thomas",
+    "license_number": "DL479935",
+    "phone": "+19513675853",
+    "status": "active",
+    "hired_date": "2022-02-15",
+    "created_at": "2025-11-01T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000081",
+    "name": "Riley Martinez",
+    "license_number": "DL931987",
+    "phone": "+15646182566",
+    "status": "active",
+    "hired_date": "2019-01-27",
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000082",
+    "name": "Jordan Moore",
+    "license_number": "DL113858",
+    "phone": "+12597467715",
+    "status": "active",
+    "hired_date": "2018-02-07",
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000083",
+    "name": "Ethan Hernandez",
+    "license_number": "DL243528",
+    "phone": "+14300318805",
+    "status": "active",
+    "hired_date": "2021-12-22",
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000084",
+    "name": "Reese Miller",
+    "license_number": "DL697078",
+    "phone": "+13855864092",
+    "status": "active",
+    "hired_date": "2018-10-05",
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000085",
+    "name": "Finley Wilson",
+    "license_number": "DL152484",
+    "phone": "+15929694031",
+    "status": "active",
+    "hired_date": "2018-03-19",
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000086",
+    "name": "Jordan Lee",
+    "license_number": "DL562813",
+    "phone": "+15574485472",
+    "status": "active",
+    "hired_date": "2020-09-13",
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000087",
+    "name": "Riley Garcia",
+    "license_number": "DL769706",
+    "phone": "+14335891070",
+    "status": "active",
+    "hired_date": "2018-10-15",
+    "created_at": "2025-11-26T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000088",
+    "name": "Olivia Wilson",
+    "license_number": "DL112549",
+    "phone": "+19241200765",
+    "status": "active",
+    "hired_date": "2024-04-24",
+    "created_at": "2025-11-23T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000089",
+    "name": "Hayden Gonzalez",
+    "license_number": "DL661555",
+    "phone": "+13144813658",
+    "status": "terminated",
+    "hired_date": "2023-01-23",
+    "created_at": "2025-11-01T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000090",
+    "name": "Emma Anderson",
+    "license_number": "DL129375",
+    "phone": "+18098501055",
+    "status": "active",
+    "hired_date": "2024-01-29",
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000091",
+    "name": "Liam Rodriguez",
+    "license_number": "DL880231",
+    "phone": "+19508812175",
+    "status": "active",
+    "hired_date": "2021-12-20",
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000092",
+    "name": "Jordan Moore",
+    "license_number": "DL429860",
+    "phone": "+17230063923",
+    "status": "active",
+    "hired_date": "2021-09-04",
+    "created_at": "2025-11-22T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000093",
+    "name": "Hayden Thomas",
+    "license_number": "DL320618",
+    "phone": "+19150645261",
+    "status": "active",
+    "hired_date": "2023-12-05",
+    "created_at": "2025-11-20T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000094",
+    "name": "Jamie Taylor",
+    "license_number": "DL748861",
+    "phone": "+19677061951",
+    "status": "active",
+    "hired_date": "2018-04-08",
+    "created_at": "2025-11-20T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000095",
+    "name": "Emerson Smith",
+    "license_number": "DL267036",
+    "phone": "+13368396619",
+    "status": "active",
+    "hired_date": "2019-01-28",
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000096",
+    "name": "Cameron Martinez",
+    "license_number": "DL250791",
+    "phone": "+18785617989",
+    "status": "leave",
+    "hired_date": "2020-10-18",
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000097",
+    "name": "Jamie Johnson",
+    "license_number": "DL138167",
+    "phone": "+18081929834",
+    "status": "terminated",
+    "hired_date": "2020-02-02",
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000098",
+    "name": "Avery Jackson",
+    "license_number": "DL220924",
+    "phone": "+16808175106",
+    "status": "active",
+    "hired_date": "2018-01-28",
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000099",
+    "name": "Avery Moore",
+    "license_number": "DL107012",
+    "phone": "+19807234280",
+    "status": "active",
+    "hired_date": "2018-10-30",
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000100",
+    "name": "Blake Martinez",
+    "license_number": "DL961917",
+    "phone": "+19077402047",
+    "status": "active",
+    "hired_date": "2023-08-09",
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000101",
+    "name": "Emerson Perez",
+    "license_number": "DL953770",
+    "phone": "+16492262670",
+    "status": "active",
+    "hired_date": "2020-02-01",
+    "created_at": "2025-11-18T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000102",
+    "name": "Noah Rodriguez",
+    "license_number": "DL971273",
+    "phone": "+15338702925",
+    "status": "active",
+    "hired_date": "2018-11-30",
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000103",
+    "name": "Emma Anderson",
+    "license_number": "DL618271",
+    "phone": "+18219239094",
+    "status": "active",
+    "hired_date": "2021-08-22",
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000104",
+    "name": "Hayden Garcia",
+    "license_number": "DL115252",
+    "phone": "+16576355148",
+    "status": "active",
+    "hired_date": "2024-07-06",
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000105",
+    "name": "Evelyn Garcia",
+    "license_number": "DL682206",
+    "phone": "+13437923476",
+    "status": "leave",
+    "hired_date": "2018-10-22",
+    "created_at": "2025-11-22T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000106",
+    "name": "Evelyn Moore",
+    "license_number": "DL211865",
+    "phone": "+17063501970",
+    "status": "active",
+    "hired_date": "2020-01-18",
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000107",
+    "name": "Noah Smith",
+    "license_number": "DL783960",
+    "phone": "+14058131810",
+    "status": "active",
+    "hired_date": "2024-02-20",
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000108",
+    "name": "Alex Thompson",
+    "license_number": "DL290288",
+    "phone": "+12125799883",
+    "status": "active",
+    "hired_date": "2021-02-05",
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000109",
+    "name": "Sophia Taylor",
+    "license_number": "DL396381",
+    "phone": "+19686324366",
+    "status": "active",
+    "hired_date": "2019-03-05",
+    "created_at": "2025-11-15T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000110",
+    "name": "Mia Moore",
+    "license_number": "DL916037",
+    "phone": "+14402511987",
+    "status": "active",
+    "hired_date": "2024-05-18",
+    "created_at": "2025-11-15T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000111",
+    "name": "Mason Thompson",
+    "license_number": "DL990811",
+    "phone": "+17807897816",
+    "status": "active",
+    "hired_date": "2024-05-27",
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000112",
+    "name": "Drew Williams",
+    "license_number": "DL247042",
+    "phone": "+12472995438",
+    "status": "active",
+    "hired_date": "2018-11-17",
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000113",
+    "name": "Hayden Jackson",
+    "license_number": "DL156176",
+    "phone": "+12780840046",
+    "status": "active",
+    "hired_date": "2018-09-07",
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000114",
+    "name": "Rowan Smith",
+    "license_number": "DL528284",
+    "phone": "+16519833214",
+    "status": "leave",
+    "hired_date": "2022-04-25",
+    "created_at": "2025-11-03T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000115",
+    "name": "Blake Gonzalez",
+    "license_number": "DL590454",
+    "phone": "+14685247432",
+    "status": "active",
+    "hired_date": "2024-03-07",
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000116",
+    "name": "Cameron Johnson",
+    "license_number": "DL361792",
+    "phone": "+13970225341",
+    "status": "active",
+    "hired_date": "2018-02-14",
+    "created_at": "2025-11-20T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000117",
+    "name": "Evelyn Garcia",
+    "license_number": "DL980182",
+    "phone": "+18137922835",
+    "status": "leave",
+    "hired_date": "2020-11-30",
+    "created_at": "2025-11-18T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000118",
+    "name": "Sophia Thompson",
+    "license_number": "DL234450",
+    "phone": "+19651241426",
+    "status": "active",
+    "hired_date": "2020-10-31",
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000119",
+    "name": "Avery Thomas",
+    "license_number": "DL971489",
+    "phone": "+14507579731",
+    "status": "active",
+    "hired_date": "2023-10-30",
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "driver_id": "DRV-000120",
+    "name": "Logan Smith",
+    "license_number": "DL143333",
+    "phone": "+13281026100",
+    "status": "active",
+    "hired_date": "2021-02-09",
+    "created_at": "2025-11-10T00:00:00Z"
+  }
+]

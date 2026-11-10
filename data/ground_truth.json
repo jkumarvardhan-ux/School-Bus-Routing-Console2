@@ -1,0 +1,1938 @@
+[
+  {
+    "entity_type": "AddressZone",
+    "entity_id": "ZONE-000080",
+    "issue_type": "unapproved_address_exposed",
+    "description": "Zone marked unapproved but still linked to stops/students",
+    "expected_decision": "reject_or_flag_assignment",
+    "severity": "high"
+  },
+  {
+    "entity_type": "Student",
+    "entity_id": "STU-001962",
+    "issue_type": "unapproved_address_exposed",
+    "description": "Student address references an unapproved synthetic address zone",
+    "expected_decision": "quarantine_address_and_request_verification",
+    "severity": "high"
+  },
+  {
+    "entity_type": "Stop",
+    "entity_id": "STOP-000001",
+    "issue_type": "unapproved_address_exposed",
+    "description": "Stop linked to unapproved zone or itself unapproved",
+    "expected_decision": "remove_from_active_routes",
+    "severity": "high"
+  },
+  {
+    "entity_type": "Stop",
+    "entity_id": "STOP-000299",
+    "issue_type": "unapproved_address_exposed",
+    "description": "Stop linked to unapproved zone or itself unapproved",
+    "expected_decision": "remove_from_active_routes",
+    "severity": "high"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001070-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000405-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001488-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000627-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004891-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004434-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004634-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002194-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002768-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002066-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002037-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000396-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001523-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001721-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004841-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002378-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002545-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004272-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004713-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000980-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000229-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000300-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004977-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003429-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001011-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001453-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000015-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000215-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000315-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000509-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002617-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001977-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004582-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001279-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003875-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000567-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001103-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000463-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003380-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004557-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004894-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002336-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001711-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000713-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000176-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001266-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004792-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003725-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002437-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004208-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002351-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003321-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000617-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003237-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004261-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001940-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002562-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002963-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000757-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002242-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000696-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003113-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003463-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000085-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004112-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003503-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004340-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001676-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002861-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000454-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004899-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004281-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002268-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002051-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000392-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000809-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002011-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004422-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003642-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001154-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003756-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002946-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001262-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000882-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001754-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003569-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003760-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002349-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004032-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004167-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004664-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000165-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001774-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001109-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000348-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003198-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003667-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000173-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003162-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000558-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004590-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003599-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003457-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000982-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002216-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002660-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004537-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001860-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001842-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004767-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003491-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003546-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004970-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003639-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001798-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004556-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001533-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002302-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001067-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002592-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000857-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001143-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003323-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000873-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003359-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001369-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003970-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003989-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002563-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001775-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001841-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003754-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003914-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002019-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003883-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001374-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004128-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004673-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004463-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003016-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001966-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001169-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001833-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000352-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004220-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000784-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002704-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000017-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001280-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002514-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000394-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001095-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000435-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002423-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002355-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003516-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003195-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002856-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003147-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001668-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003679-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001604-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001058-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000134-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000749-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001857-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002101-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000889-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004818-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000050-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001195-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004568-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004114-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004550-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004945-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000233-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003664-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002303-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004484-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002199-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000596-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000444-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000242-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000818-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002713-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001448-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001360-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004580-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004585-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003222-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000613-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003659-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002863-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004077-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000910-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001912-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004478-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003802-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003256-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002264-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000748-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002795-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002513-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001057-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003618-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004198-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001491-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004825-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004974-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001284-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004685-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002017-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000637-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000810-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003424-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000144-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001253-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001854-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000557-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-002919-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004849-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001466-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004489-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004389-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000595-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000289-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004191-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004379-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-004404-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-003861-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001071-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000161-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001249-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001243-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-001944-2026",
+    "issue_type": "bus_capacity_exceeded",
+    "description": "Student assigned after route/bus reached effective capacity",
+    "expected_decision": "reassign_or_add_bus",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Assignment",
+    "entity_id": "ASN-STU-000010-2026",
+    "issue_type": "student_assigned_to_incompatible_route",
+    "description": "Wheelchair (or special-need) student on non-accessible vehicle",
+    "expected_decision": "move_to_accessible_vehicle",
+    "severity": "high"
+  },
+  {
+    "entity_type": "RouteStop",
+    "entity_id": "RS-002264",
+    "issue_type": "impossible_travel_time",
+    "description": "Travel time 120 min between consecutive stops is unrealistic",
+    "expected_decision": "resequence_or_split_route",
+    "severity": "medium"
+  },
+  {
+    "entity_type": "Notification",
+    "entity_id": "NOT-2026-035453",
+    "issue_type": "notification_sent_to_invalid_contact",
+    "description": "Notification targeted invalid or failed contact record",
+    "expected_decision": "update_contact_and_resend",
+    "severity": "low"
+  }
+]

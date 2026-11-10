@@ -1,0 +1,902 @@
+[
+  {
+    "bus_id": "BUS-000001",
+    "plate_number": "SB2925B",
+    "capacity": 72,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": 62,
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000002",
+    "plate_number": "SB7247C",
+    "capacity": 48,
+    "accessible": false,
+    "status": "maintenance",
+    "current_capacity_override": null,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000003",
+    "plate_number": "SB4262D",
+    "capacity": 72,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000004",
+    "plate_number": "SB1129E",
+    "capacity": 48,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000005",
+    "plate_number": "SB6832F",
+    "capacity": 54,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000006",
+    "plate_number": "SB6393G",
+    "capacity": 48,
+    "accessible": false,
+    "status": "maintenance",
+    "current_capacity_override": null,
+    "created_at": "2025-11-23T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000007",
+    "plate_number": "SB2293H",
+    "capacity": 48,
+    "accessible": true,
+    "status": "maintenance",
+    "current_capacity_override": null,
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000008",
+    "plate_number": "SB7011I",
+    "capacity": 72,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-18T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000009",
+    "plate_number": "SB4695J",
+    "capacity": 36,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-03T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000010",
+    "plate_number": "SB8010K",
+    "capacity": 54,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-01T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000011",
+    "plate_number": "SB5352L",
+    "capacity": 36,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000012",
+    "plate_number": "SB2551M",
+    "capacity": 72,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000013",
+    "plate_number": "SB8575N",
+    "capacity": 72,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000014",
+    "plate_number": "SB1500O",
+    "capacity": 36,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000015",
+    "plate_number": "SB7095P",
+    "capacity": 24,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-27T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000016",
+    "plate_number": "SB8271Q",
+    "capacity": 48,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-23T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000017",
+    "plate_number": "SB1535R",
+    "capacity": 60,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000018",
+    "plate_number": "SB2821S",
+    "capacity": 24,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000019",
+    "plate_number": "SB5231T",
+    "capacity": 48,
+    "accessible": true,
+    "status": "maintenance",
+    "current_capacity_override": null,
+    "created_at": "2025-12-01T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000020",
+    "plate_number": "SB6784U",
+    "capacity": 60,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000021",
+    "plate_number": "SB8750V",
+    "capacity": 72,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000022",
+    "plate_number": "SB5632W",
+    "capacity": 24,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000023",
+    "plate_number": "SB5440X",
+    "capacity": 72,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000024",
+    "plate_number": "SB4815Y",
+    "capacity": 36,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000025",
+    "plate_number": "SB3609Z",
+    "capacity": 36,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000026",
+    "plate_number": "SB6753A",
+    "capacity": 36,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000027",
+    "plate_number": "SB9695B",
+    "capacity": 36,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000028",
+    "plate_number": "SB1402C",
+    "capacity": 48,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000029",
+    "plate_number": "SB3381D",
+    "capacity": 72,
+    "accessible": false,
+    "status": "maintenance",
+    "current_capacity_override": null,
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000030",
+    "plate_number": "SB7713E",
+    "capacity": 60,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000031",
+    "plate_number": "SB6082F",
+    "capacity": 72,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000032",
+    "plate_number": "SB6808G",
+    "capacity": 60,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000033",
+    "plate_number": "SB4967H",
+    "capacity": 54,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-15T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000034",
+    "plate_number": "SB6076I",
+    "capacity": 54,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000035",
+    "plate_number": "SB7525J",
+    "capacity": 54,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000036",
+    "plate_number": "SB8561K",
+    "capacity": 36,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000037",
+    "plate_number": "SB2203L",
+    "capacity": 36,
+    "accessible": false,
+    "status": "maintenance",
+    "current_capacity_override": null,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000038",
+    "plate_number": "SB4519M",
+    "capacity": 54,
+    "accessible": false,
+    "status": "maintenance",
+    "current_capacity_override": null,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000039",
+    "plate_number": "SB7577N",
+    "capacity": 48,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-15T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000040",
+    "plate_number": "SB9374O",
+    "capacity": 24,
+    "accessible": false,
+    "status": "maintenance",
+    "current_capacity_override": null,
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000041",
+    "plate_number": "SB4642P",
+    "capacity": 60,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000042",
+    "plate_number": "SB2016Q",
+    "capacity": 24,
+    "accessible": false,
+    "status": "maintenance",
+    "current_capacity_override": null,
+    "created_at": "2025-11-18T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000043",
+    "plate_number": "SB5464R",
+    "capacity": 54,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000044",
+    "plate_number": "SB9841S",
+    "capacity": 48,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000045",
+    "plate_number": "SB2275T",
+    "capacity": 60,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000046",
+    "plate_number": "SB7005U",
+    "capacity": 48,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000047",
+    "plate_number": "SB6973V",
+    "capacity": 54,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000048",
+    "plate_number": "SB6231W",
+    "capacity": 72,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000049",
+    "plate_number": "SB2967X",
+    "capacity": 72,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000050",
+    "plate_number": "SB4707Y",
+    "capacity": 60,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-01T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000051",
+    "plate_number": "SB9424Z",
+    "capacity": 24,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000052",
+    "plate_number": "SB5020A",
+    "capacity": 60,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000053",
+    "plate_number": "SB3757B",
+    "capacity": 72,
+    "accessible": false,
+    "status": "maintenance",
+    "current_capacity_override": null,
+    "created_at": "2025-11-15T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000054",
+    "plate_number": "SB1345C",
+    "capacity": 36,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000055",
+    "plate_number": "SB9362D",
+    "capacity": 54,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000056",
+    "plate_number": "SB2356E",
+    "capacity": 48,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000057",
+    "plate_number": "SB5568F",
+    "capacity": 48,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000058",
+    "plate_number": "SB1465G",
+    "capacity": 36,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-23T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000059",
+    "plate_number": "SB7096H",
+    "capacity": 60,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000060",
+    "plate_number": "SB6914I",
+    "capacity": 54,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-03T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000061",
+    "plate_number": "SB9510J",
+    "capacity": 24,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000062",
+    "plate_number": "SB2995K",
+    "capacity": 24,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000063",
+    "plate_number": "SB1490L",
+    "capacity": 72,
+    "accessible": false,
+    "status": "retired",
+    "current_capacity_override": null,
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000064",
+    "plate_number": "SB3617M",
+    "capacity": 72,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-20T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000065",
+    "plate_number": "SB1935N",
+    "capacity": 60,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000066",
+    "plate_number": "SB2490O",
+    "capacity": 54,
+    "accessible": false,
+    "status": "maintenance",
+    "current_capacity_override": null,
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000067",
+    "plate_number": "SB3226P",
+    "capacity": 54,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-23T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000068",
+    "plate_number": "SB6315Q",
+    "capacity": 24,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-01T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000069",
+    "plate_number": "SB7673R",
+    "capacity": 54,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000070",
+    "plate_number": "SB1558S",
+    "capacity": 72,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": 1,
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000071",
+    "plate_number": "SB3239T",
+    "capacity": 54,
+    "accessible": false,
+    "status": "maintenance",
+    "current_capacity_override": null,
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000072",
+    "plate_number": "SB9019U",
+    "capacity": 72,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000073",
+    "plate_number": "SB1773V",
+    "capacity": 54,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-10T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000074",
+    "plate_number": "SB8335W",
+    "capacity": 36,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-10T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000075",
+    "plate_number": "SB3749X",
+    "capacity": 24,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000076",
+    "plate_number": "SB1163Y",
+    "capacity": 60,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000077",
+    "plate_number": "SB4600Z",
+    "capacity": 48,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-03T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000078",
+    "plate_number": "SB9547A",
+    "capacity": 60,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000079",
+    "plate_number": "SB7902B",
+    "capacity": 48,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000080",
+    "plate_number": "SB6614C",
+    "capacity": 54,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-16T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000081",
+    "plate_number": "SB7019D",
+    "capacity": 60,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000082",
+    "plate_number": "SB3203E",
+    "capacity": 54,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-27T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000083",
+    "plate_number": "SB7906F",
+    "capacity": 36,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000084",
+    "plate_number": "SB9025G",
+    "capacity": 60,
+    "accessible": false,
+    "status": "retired",
+    "current_capacity_override": null,
+    "created_at": "2025-11-01T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000085",
+    "plate_number": "SB8533H",
+    "capacity": 72,
+    "accessible": true,
+    "status": "maintenance",
+    "current_capacity_override": null,
+    "created_at": "2025-12-01T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000086",
+    "plate_number": "SB7899I",
+    "capacity": 60,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000087",
+    "plate_number": "SB9560J",
+    "capacity": 54,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000088",
+    "plate_number": "SB2985K",
+    "capacity": 60,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000089",
+    "plate_number": "SB4262L",
+    "capacity": 54,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000090",
+    "plate_number": "SB8869M",
+    "capacity": 72,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000091",
+    "plate_number": "SB7288N",
+    "capacity": 24,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000092",
+    "plate_number": "SB5971O",
+    "capacity": 54,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-03T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000093",
+    "plate_number": "SB4105P",
+    "capacity": 54,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000094",
+    "plate_number": "SB6764Q",
+    "capacity": 24,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000095",
+    "plate_number": "SB6627R",
+    "capacity": 24,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-15T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000096",
+    "plate_number": "SB8309S",
+    "capacity": 72,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000097",
+    "plate_number": "SB5564T",
+    "capacity": 72,
+    "accessible": true,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000098",
+    "plate_number": "SB9715U",
+    "capacity": 36,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000099",
+    "plate_number": "SB5826V",
+    "capacity": 48,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "bus_id": "BUS-000100",
+    "plate_number": "SB3317W",
+    "capacity": 48,
+    "accessible": false,
+    "status": "active",
+    "current_capacity_override": null,
+    "created_at": "2025-11-11T00:00:00Z"
+  }
+]

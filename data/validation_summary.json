@@ -1,0 +1,43 @@
+{
+  "pk_unique": {
+    "AddressZone": true,
+    "Stop": true,
+    "Bus": true,
+    "Driver": true,
+    "Student": true,
+    "GuardianContact": true,
+    "Route": true,
+    "RouteStop": true,
+    "Assignment": true,
+    "AttendanceEvent": true,
+    "Notification": true
+  },
+  "fk_ok": true,
+  "counts": {
+    "AddressZone": 80,
+    "Stop": 300,
+    "Bus": 100,
+    "Driver": 120,
+    "Student": 5000,
+    "GuardianContact": 7764,
+    "Route": 150,
+    "RouteStop": 2264,
+    "Assignment": 4928,
+    "AttendanceEvent": 275800,
+    "Notification": 35453
+  },
+  "issues": [],
+  "capacity_reconciliation": {
+    "routes_over_capacity": 5,
+    "total_overflow_seats": 230
+  },
+  "labelled_anomalies": {
+    "bus_capacity_exceeded": 235,
+    "student_assigned_to_incompatible_route": 1,
+    "impossible_travel_time": 1,
+    "notification_sent_to_invalid_contact": 1,
+    "unapproved_address_exposed": 1
+  },
+  "unlabelled_anomalies": [],
+  "seed": 20261022
+}

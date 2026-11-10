@@ -1,0 +1,722 @@
+[
+  {
+    "zone_id": "ZONE-000001",
+    "zone_name": "Zone 1 - Sector A",
+    "centroid_lat": 37.823925,
+    "centroid_lon": -122.388285,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000002",
+    "zone_name": "Zone 2 - Sector B",
+    "centroid_lat": 37.671765,
+    "centroid_lon": -122.243023,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000003",
+    "zone_name": "Zone 3 - Sector C",
+    "centroid_lat": 37.689134,
+    "centroid_lon": -122.61883,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-27T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000004",
+    "zone_name": "Zone 4 - Sector D",
+    "centroid_lat": 37.784037,
+    "centroid_lon": -122.596364,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000005",
+    "zone_name": "Zone 5 - Sector E",
+    "centroid_lat": 37.71256,
+    "centroid_lon": -122.339179,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-22T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000006",
+    "zone_name": "Zone 6 - Sector F",
+    "centroid_lat": 37.806904,
+    "centroid_lon": -122.323929,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000007",
+    "zone_name": "Zone 7 - Sector G",
+    "centroid_lat": 37.665087,
+    "centroid_lon": -122.573672,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000008",
+    "zone_name": "Zone 8 - Sector H",
+    "centroid_lat": 37.755296,
+    "centroid_lon": -122.384434,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000009",
+    "zone_name": "Zone 9 - Sector I",
+    "centroid_lat": 37.66228,
+    "centroid_lon": -122.480918,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000010",
+    "zone_name": "Zone 10 - Sector J",
+    "centroid_lat": 37.638486,
+    "centroid_lon": -122.23469,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000011",
+    "zone_name": "Zone 11 - Sector K",
+    "centroid_lat": 37.757227,
+    "centroid_lon": -122.253811,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000012",
+    "zone_name": "Zone 12 - Sector L",
+    "centroid_lat": 37.687209,
+    "centroid_lon": -122.251955,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000013",
+    "zone_name": "Zone 13 - Sector M",
+    "centroid_lat": 37.648488,
+    "centroid_lon": -122.548925,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-20T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000014",
+    "zone_name": "Zone 14 - Sector N",
+    "centroid_lat": 37.847948,
+    "centroid_lon": -122.237547,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000015",
+    "zone_name": "Zone 15 - Sector O",
+    "centroid_lat": 37.757059,
+    "centroid_lon": -122.313879,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000016",
+    "zone_name": "Zone 16 - Sector P",
+    "centroid_lat": 37.657862,
+    "centroid_lon": -122.465607,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000017",
+    "zone_name": "Zone 17 - Sector Q",
+    "centroid_lat": 37.682397,
+    "centroid_lon": -122.596856,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-03T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000018",
+    "zone_name": "Zone 18 - Sector R",
+    "centroid_lat": 37.73126,
+    "centroid_lon": -122.500988,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000019",
+    "zone_name": "Zone 19 - Sector S",
+    "centroid_lat": 37.621729,
+    "centroid_lon": -122.589942,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000020",
+    "zone_name": "Zone 20 - Sector T",
+    "centroid_lat": 37.790753,
+    "centroid_lon": -122.425397,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000021",
+    "zone_name": "Zone 21 - Sector U",
+    "centroid_lat": 37.642327,
+    "centroid_lon": -122.406804,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000022",
+    "zone_name": "Zone 22 - Sector V",
+    "centroid_lat": 37.637907,
+    "centroid_lon": -122.603488,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000023",
+    "zone_name": "Zone 23 - Sector W",
+    "centroid_lat": 37.797937,
+    "centroid_lon": -122.223588,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-01T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000024",
+    "zone_name": "Zone 24 - Sector X",
+    "centroid_lat": 37.838535,
+    "centroid_lon": -122.605504,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000025",
+    "zone_name": "Zone 25 - Sector Y",
+    "centroid_lat": 37.628554,
+    "centroid_lon": -122.336337,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-10T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000026",
+    "zone_name": "Zone 26 - Sector @",
+    "centroid_lat": 37.877373,
+    "centroid_lon": -122.419048,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000027",
+    "zone_name": "Zone 27 - Sector A",
+    "centroid_lat": 37.819623,
+    "centroid_lon": -122.327585,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000028",
+    "zone_name": "Zone 28 - Sector B",
+    "centroid_lat": 37.712445,
+    "centroid_lon": -122.614146,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-12-01T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000029",
+    "zone_name": "Zone 29 - Sector C",
+    "centroid_lat": 37.65601,
+    "centroid_lon": -122.259148,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000030",
+    "zone_name": "Zone 30 - Sector D",
+    "centroid_lat": 37.797052,
+    "centroid_lon": -122.256109,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000031",
+    "zone_name": "Zone 31 - Sector E",
+    "centroid_lat": 37.771465,
+    "centroid_lon": -122.614412,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000032",
+    "zone_name": "Zone 32 - Sector F",
+    "centroid_lat": 37.70425,
+    "centroid_lon": -122.611999,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000033",
+    "zone_name": "Zone 33 - Sector G",
+    "centroid_lat": 37.72181,
+    "centroid_lon": -122.539565,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000034",
+    "zone_name": "Zone 34 - Sector H",
+    "centroid_lat": 37.812209,
+    "centroid_lon": -122.378986,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000035",
+    "zone_name": "Zone 35 - Sector I",
+    "centroid_lat": 37.826774,
+    "centroid_lon": -122.415369,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000036",
+    "zone_name": "Zone 36 - Sector J",
+    "centroid_lat": 37.897694,
+    "centroid_lon": -122.507988,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-22T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000037",
+    "zone_name": "Zone 37 - Sector K",
+    "centroid_lat": 37.8763,
+    "centroid_lon": -122.49376,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-12-01T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000038",
+    "zone_name": "Zone 38 - Sector L",
+    "centroid_lat": 37.739142,
+    "centroid_lon": -122.301306,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-27T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000039",
+    "zone_name": "Zone 39 - Sector M",
+    "centroid_lat": 37.790834,
+    "centroid_lon": -122.333458,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-26T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000040",
+    "zone_name": "Zone 40 - Sector N",
+    "centroid_lat": 37.871105,
+    "centroid_lon": -122.548749,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000041",
+    "zone_name": "Zone 41 - Sector O",
+    "centroid_lat": 37.665516,
+    "centroid_lon": -122.413921,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-15T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000042",
+    "zone_name": "Zone 42 - Sector P",
+    "centroid_lat": 37.665643,
+    "centroid_lon": -122.221031,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000043",
+    "zone_name": "Zone 43 - Sector Q",
+    "centroid_lat": 37.857124,
+    "centroid_lon": -122.288985,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000044",
+    "zone_name": "Zone 44 - Sector R",
+    "centroid_lat": 37.877827,
+    "centroid_lon": -122.343135,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000045",
+    "zone_name": "Zone 45 - Sector S",
+    "centroid_lat": 37.821967,
+    "centroid_lon": -122.404649,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000046",
+    "zone_name": "Zone 46 - Sector T",
+    "centroid_lat": 37.773369,
+    "centroid_lon": -122.286238,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000047",
+    "zone_name": "Zone 47 - Sector U",
+    "centroid_lat": 37.858654,
+    "centroid_lon": -122.281069,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-16T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000048",
+    "zone_name": "Zone 48 - Sector V",
+    "centroid_lat": 37.749566,
+    "centroid_lon": -122.249295,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-18T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000049",
+    "zone_name": "Zone 49 - Sector W",
+    "centroid_lat": 37.664321,
+    "centroid_lon": -122.427497,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000050",
+    "zone_name": "Zone 50 - Sector X",
+    "centroid_lat": 37.839628,
+    "centroid_lon": -122.376892,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000051",
+    "zone_name": "Zone 51 - Sector Y",
+    "centroid_lat": 37.793167,
+    "centroid_lon": -122.584276,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000052",
+    "zone_name": "Zone 52 - Sector @",
+    "centroid_lat": 37.721039,
+    "centroid_lon": -122.597431,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000053",
+    "zone_name": "Zone 53 - Sector A",
+    "centroid_lat": 37.883044,
+    "centroid_lon": -122.377074,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000054",
+    "zone_name": "Zone 54 - Sector B",
+    "centroid_lat": 37.623513,
+    "centroid_lon": -122.512064,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000055",
+    "zone_name": "Zone 55 - Sector C",
+    "centroid_lat": 37.733825,
+    "centroid_lon": -122.407444,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-03T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000056",
+    "zone_name": "Zone 56 - Sector D",
+    "centroid_lat": 37.807445,
+    "centroid_lon": -122.611366,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000057",
+    "zone_name": "Zone 57 - Sector E",
+    "centroid_lat": 37.767146,
+    "centroid_lon": -122.539248,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000058",
+    "zone_name": "Zone 58 - Sector F",
+    "centroid_lat": 37.915386,
+    "centroid_lon": -122.580634,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000059",
+    "zone_name": "Zone 59 - Sector G",
+    "centroid_lat": 37.761902,
+    "centroid_lon": -122.248354,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000060",
+    "zone_name": "Zone 60 - Sector H",
+    "centroid_lat": 37.664288,
+    "centroid_lon": -122.256914,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000061",
+    "zone_name": "Zone 61 - Sector I",
+    "centroid_lat": 37.676204,
+    "centroid_lon": -122.323728,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000062",
+    "zone_name": "Zone 62 - Sector J",
+    "centroid_lat": 37.802028,
+    "centroid_lon": -122.497746,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000063",
+    "zone_name": "Zone 63 - Sector K",
+    "centroid_lat": 37.635116,
+    "centroid_lon": -122.35854,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-15T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000064",
+    "zone_name": "Zone 64 - Sector L",
+    "centroid_lat": 37.775023,
+    "centroid_lon": -122.430211,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000065",
+    "zone_name": "Zone 65 - Sector M",
+    "centroid_lat": 37.705641,
+    "centroid_lon": -122.548547,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-16T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000066",
+    "zone_name": "Zone 66 - Sector N",
+    "centroid_lat": 37.763367,
+    "centroid_lon": -122.473691,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000067",
+    "zone_name": "Zone 67 - Sector O",
+    "centroid_lat": 37.638476,
+    "centroid_lon": -122.530505,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000068",
+    "zone_name": "Zone 68 - Sector P",
+    "centroid_lat": 37.784372,
+    "centroid_lon": -122.332104,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000069",
+    "zone_name": "Zone 69 - Sector Q",
+    "centroid_lat": 37.773266,
+    "centroid_lon": -122.436075,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-03T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000070",
+    "zone_name": "Zone 70 - Sector R",
+    "centroid_lat": 37.740235,
+    "centroid_lon": -122.325767,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000071",
+    "zone_name": "Zone 71 - Sector S",
+    "centroid_lat": 37.887149,
+    "centroid_lon": -122.245047,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-27T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000072",
+    "zone_name": "Zone 72 - Sector T",
+    "centroid_lat": 37.647354,
+    "centroid_lon": -122.254747,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000073",
+    "zone_name": "Zone 73 - Sector U",
+    "centroid_lat": 37.895297,
+    "centroid_lon": -122.604245,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000074",
+    "zone_name": "Zone 74 - Sector V",
+    "centroid_lat": 37.689244,
+    "centroid_lon": -122.236617,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-18T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000075",
+    "zone_name": "Zone 75 - Sector W",
+    "centroid_lat": 37.825645,
+    "centroid_lon": -122.555119,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000076",
+    "zone_name": "Zone 76 - Sector X",
+    "centroid_lat": 37.695463,
+    "centroid_lon": -122.548506,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000077",
+    "zone_name": "Zone 77 - Sector Y",
+    "centroid_lat": 37.813634,
+    "centroid_lon": -122.237224,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-12-01T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000078",
+    "zone_name": "Zone 78 - Sector @",
+    "centroid_lat": 37.846109,
+    "centroid_lon": -122.598065,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-18T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000079",
+    "zone_name": "Zone 79 - Sector A",
+    "centroid_lat": 37.700969,
+    "centroid_lon": -122.497689,
+    "is_approved": true,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-10T00:00:00Z"
+  },
+  {
+    "zone_id": "ZONE-000080",
+    "zone_name": "Zone 80 - Sector B [UNAPPROVED]",
+    "centroid_lat": 37.727266,
+    "centroid_lon": -122.357207,
+    "is_approved": false,
+    "school_district": "Bayview Unified",
+    "created_at": "2025-11-29T00:00:00Z"
+  }
+]

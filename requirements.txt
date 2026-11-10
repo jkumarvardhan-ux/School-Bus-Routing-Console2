@@ -1,0 +1,3 @@
+# Core system uses Python standard library only.
+# Optional for development / CI:
+pytest>=7.0.0

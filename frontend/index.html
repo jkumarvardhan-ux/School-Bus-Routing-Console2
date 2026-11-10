@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>School Bus Routing & Assignment Console</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="sticky">
+    <div class="max-w-7xl px-4 sm:px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="logo">SB</div>
+        <div>
+          <h1>School Bus Routing Console</h1>
+          <p class="subtitle">Assignments · Capacity · Safety · Attendance · Exceptions</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-2 text-sm text-slate-500">
+        <span class="live-dot"></span>
+        Live data · Seed 20261022
+      </div>
+    </div>
+  </header>
+
+  <div class="max-w-7xl px-4 sm:px-6 py-6">
+    <!-- Nav -->
+    <nav class="flex flex-wrap gap-2 mb-6" id="nav">
+      <button class="nav-btn active" data-view="dashboard">Dashboard</button>
+      <button class="nav-btn" data-view="routes">Routes & Capacity</button>
+      <button class="nav-btn" data-view="students">Students</button>
+      <button class="nav-btn" data-view="assignments">Assignments</button>
+      <button class="nav-btn" data-view="exceptions">Exceptions / Ground Truth</button>
+      <button class="nav-btn" data-view="attendance">Attendance</button>
+      <button class="nav-btn" data-view="notifications">Notifications</button>
+      <button class="nav-btn" data-view="operations">Operations & Audit</button>
+    </nav>
+
+    <!-- Dashboard -->
+    <div id="view-dashboard" class="view">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6" id="stats-cards"></div>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="card p-5">
+          <h2>Capacity Pressure (Top Routes)</h2>
+          <canvas id="capChart" height="220"></canvas>
+        </div>
+        <div class="card p-5">
+          <h2>Issue Severity Breakdown</h2>
+          <canvas id="issueChart" height="220"></canvas>
+        </div>
+      </div>
+      <div class="card p-5 mt-6">
+        <h2>Key Business Rules Covered</h2>
+        <ul class="rules">
+          <li>Bus capacity respected where possible; overflows labelled in ground truth</li>
+          <li>Accessibility (wheelchair → accessible bus) checked; incompatibilities flagged</li>
+          <li>Route stop sequences with travel times; impossible times labelled</li>
+          <li>Daily attendance + missed pickups generate guardian notifications</li>
+          <li>Unapproved address zones and invalid contacts are flagged, never silently accepted</li>
+          <li>Ground-truth labels kept completely separate from operational features</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Routes & Capacity -->
+    <div id="view-routes" class="view hidden">
+      <div class="card">
+        <div class="table-wrap">
+          <table id="capacity-table">
+            <thead>
+              <tr>
+                <th>Route</th>
+                <th>Bus</th>
+                <th>Load</th>
+                <th>Capacity</th>
+                <th>Utilization</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Students -->
+    <div id="view-students" class="view hidden">
+      <div class="mb-4">
+        <input type="search" id="student-search" class="search-input" placeholder="Search by ID or name…" />
+      </div>
+      <div class="card">
+        <div class="table-wrap">
+          <table id="students-table">
+            <thead>
+              <tr>
+                <th>Student ID</th>
+                <th>Name</th>
+                <th>Grade</th>
+                <th>Accessibility</th>
+                <th>Zone</th>
+                <th>Active</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Assignments -->
+    <div id="view-assignments" class="view hidden">
+      <div class="card">
+        <div class="table-wrap">
+          <table id="assignments-table">
+            <thead>
+              <tr>
+                <th>Assignment</th>
+                <th>Student</th>
+                <th>Grade</th>
+                <th>Accessibility</th>
+                <th>Route</th>
+                <th>Stop</th>
+                <th>Compatible</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Exceptions -->
+    <div id="view-exceptions" class="view hidden">
+      <div class="card">
+        <div class="table-wrap">
+          <table id="exceptions-table">
+            <thead>
+              <tr>
+                <th>Entity</th>
+                <th>ID</th>
+                <th>Issue Type</th>
+                <th>Description</th>
+                <th>Expected Decision</th>
+                <th>Severity</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Attendance -->
+    <div id="view-attendance" class="view hidden">
+      <div class="mb-4 flex gap-2">
+        <button class="nav-btn" data-status="">All</button>
+        <button class="nav-btn" data-status="missed_pickup">Missed Pickup</button>
+        <button class="nav-btn" data-status="present">Present</button>
+        <button class="nav-btn" data-status="absent">Absent</button>
+      </div>
+      <div class="card">
+        <div class="table-wrap">
+          <table id="attendance-table">
+            <thead>
+              <tr>
+                <th>Event ID</th>
+                <th>Student</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Operational workflows -->
+    <div id="view-operations" class="view hidden">
+      <div class="grid md:grid-cols-2 gap-6 mb-6">
+        <form id="assign-form" class="card p-5">
+          <h2>Assign / Reassign Student</h2>
+          <p class="text-sm text-slate-500 mb-3">The server validates capacity, active bus/driver, accessible vehicle, approved stop, route membership, zone and pickup-window overlap.</p>
+          <label>Student ID<input required id="op-student" class="search-input" placeholder="STU-000001"></label>
+          <label>Route ID<input required id="op-route" class="search-input" placeholder="ROUTE-2026-000001"></label>
+          <label>Stop ID<input required id="op-stop" class="search-input" placeholder="STOP-000001"></label>
+          <button class="nav-btn active mt-3" type="submit">Validate & Save Assignment</button>
+        </form>
+        <form id="attendance-form" class="card p-5">
+          <h2>Record Daily Attendance</h2>
+          <label>Student ID<input required id="att-student" class="search-input" placeholder="STU-000001"></label>
+          <label>Date<input required id="att-date" type="date" class="search-input"></label>
+          <label>Status<select id="att-status" class="search-input"><option>present</option><option>absent</option><option>late</option><option>missed_pickup</option><option>boarded</option><option>dropped_off</option></select></label>
+          <button class="nav-btn active mt-3" type="submit">Record Attendance</button>
+        </form>
+      </div>
+      <form id="disruption-form" class="card p-5 mb-6">
+        <h2>Report Route Disruption</h2>
+        <div class="grid md:grid-cols-3 gap-3">
+          <input required id="dis-route" class="search-input" placeholder="Route ID">
+          <select id="dis-type" class="search-input"><option>bus_breakdown</option><option>driver_unavailable</option><option>road_closure</option><option>weather</option></select>
+          <input required id="dis-start" type="datetime-local" class="search-input">
+        </div>
+        <input id="dis-notes" class="search-input mt-3" placeholder="Notes (optional)">
+        <button class="nav-btn active mt-3" type="submit">Save Disruption</button>
+      </form>
+      <div id="operation-result" class="card p-4 mb-6" aria-live="polite">Operational results will appear here.</div>
+      <div class="card mb-6"><h2 class="p-5">Recent Audit Events</h2><div class="table-wrap"><table id="audit-table"><thead><tr><th>Time</th><th>Entity</th><th>ID</th><th>Event</th><th>Actor</th><th>Details</th></tr></thead><tbody></tbody></table></div></div>
+      <div class="card"><h2 class="p-5">Open Route Disruptions</h2><div class="table-wrap"><table id="disruptions-table"><thead><tr><th>Route</th><th>Type</th><th>Start</th><th>Status</th><th>Notes</th></tr></thead><tbody></tbody></table></div></div>
+    </div>
+
+    <!-- Notifications -->
+    <div id="view-notifications" class="view hidden">
+      <div class="card">
+        <div class="table-wrap">
+          <table id="notifications-table">
+            <thead>
+              <tr>
+                <th>Notification</th>
+                <th>Student</th>
+                <th>Contact</th>
+                <th>Type</th>
+                <th>Message</th>
+                <th>Sent At</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

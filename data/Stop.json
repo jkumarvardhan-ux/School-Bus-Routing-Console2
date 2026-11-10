@@ -1,0 +1,3002 @@
+[
+  {
+    "stop_id": "STOP-000001",
+    "stop_name": "Stop 1 @ Zone 80 - Sector B [UNAPPROVED]",
+    "lat": 37.712572,
+    "lon": -122.352588,
+    "address_zone_id": "ZONE-000080",
+    "is_approved": false,
+    "capacity_hint": 30,
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000002",
+    "stop_name": "Stop 2 @ Zone 1 - Sector A",
+    "lat": 37.811134,
+    "lon": -122.390238,
+    "address_zone_id": "ZONE-000001",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000003",
+    "stop_name": "Stop 3 @ Zone 2 - Sector B",
+    "lat": 37.659799,
+    "lon": -122.224328,
+    "address_zone_id": "ZONE-000002",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000004",
+    "stop_name": "Stop 4 @ Zone 3 - Sector C",
+    "lat": 37.677145,
+    "lon": -122.604867,
+    "address_zone_id": "ZONE-000003",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000005",
+    "stop_name": "Stop 5 @ Zone 4 - Sector D",
+    "lat": 37.779153,
+    "lon": -122.597146,
+    "address_zone_id": "ZONE-000004",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000006",
+    "stop_name": "Stop 6 @ Zone 5 - Sector E",
+    "lat": 37.716952,
+    "lon": -122.349141,
+    "address_zone_id": "ZONE-000005",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000007",
+    "stop_name": "Stop 7 @ Zone 6 - Sector F",
+    "lat": 37.826193,
+    "lon": -122.313101,
+    "address_zone_id": "ZONE-000006",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000008",
+    "stop_name": "Stop 8 @ Zone 7 - Sector G",
+    "lat": 37.672135,
+    "lon": -122.561935,
+    "address_zone_id": "ZONE-000007",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000009",
+    "stop_name": "Stop 9 @ Zone 8 - Sector H",
+    "lat": 37.755041,
+    "lon": -122.392774,
+    "address_zone_id": "ZONE-000008",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000010",
+    "stop_name": "Stop 10 @ Zone 9 - Sector I",
+    "lat": 37.678924,
+    "lon": -122.478658,
+    "address_zone_id": "ZONE-000009",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000011",
+    "stop_name": "Stop 11 @ Zone 10 - Sector J",
+    "lat": 37.655023,
+    "lon": -122.226082,
+    "address_zone_id": "ZONE-000010",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000012",
+    "stop_name": "Stop 12 @ Zone 11 - Sector K",
+    "lat": 37.749165,
+    "lon": -122.268015,
+    "address_zone_id": "ZONE-000011",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-22T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000013",
+    "stop_name": "Stop 13 @ Zone 12 - Sector L",
+    "lat": 37.706626,
+    "lon": -122.266612,
+    "address_zone_id": "ZONE-000012",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000014",
+    "stop_name": "Stop 14 @ Zone 13 - Sector M",
+    "lat": 37.630927,
+    "lon": -122.536769,
+    "address_zone_id": "ZONE-000013",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000015",
+    "stop_name": "Stop 15 @ Zone 14 - Sector N",
+    "lat": 37.839754,
+    "lon": -122.22138,
+    "address_zone_id": "ZONE-000014",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000016",
+    "stop_name": "Stop 16 @ Zone 15 - Sector O",
+    "lat": 37.74406,
+    "lon": -122.325588,
+    "address_zone_id": "ZONE-000015",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-26T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000017",
+    "stop_name": "Stop 17 @ Zone 16 - Sector P",
+    "lat": 37.667397,
+    "lon": -122.470931,
+    "address_zone_id": "ZONE-000016",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000018",
+    "stop_name": "Stop 18 @ Zone 17 - Sector Q",
+    "lat": 37.684836,
+    "lon": -122.598685,
+    "address_zone_id": "ZONE-000017",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000019",
+    "stop_name": "Stop 19 @ Zone 18 - Sector R",
+    "lat": 37.725426,
+    "lon": -122.499232,
+    "address_zone_id": "ZONE-000018",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-26T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000020",
+    "stop_name": "Stop 20 @ Zone 19 - Sector S",
+    "lat": 37.616203,
+    "lon": -122.590809,
+    "address_zone_id": "ZONE-000019",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000021",
+    "stop_name": "Stop 21 @ Zone 20 - Sector T",
+    "lat": 37.776652,
+    "lon": -122.435028,
+    "address_zone_id": "ZONE-000020",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000022",
+    "stop_name": "Stop 22 @ Zone 21 - Sector U",
+    "lat": 37.632191,
+    "lon": -122.413104,
+    "address_zone_id": "ZONE-000021",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000023",
+    "stop_name": "Stop 23 @ Zone 22 - Sector V",
+    "lat": 37.627065,
+    "lon": -122.591823,
+    "address_zone_id": "ZONE-000022",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-03T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000024",
+    "stop_name": "Stop 24 @ Zone 23 - Sector W",
+    "lat": 37.809116,
+    "lon": -122.231194,
+    "address_zone_id": "ZONE-000023",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000025",
+    "stop_name": "Stop 25 @ Zone 24 - Sector X",
+    "lat": 37.834469,
+    "lon": -122.623032,
+    "address_zone_id": "ZONE-000024",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000026",
+    "stop_name": "Stop 26 @ Zone 25 - Sector Y",
+    "lat": 37.646979,
+    "lon": -122.351522,
+    "address_zone_id": "ZONE-000025",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000027",
+    "stop_name": "Stop 27 @ Zone 26 - Sector @",
+    "lat": 37.875886,
+    "lon": -122.42254,
+    "address_zone_id": "ZONE-000026",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000028",
+    "stop_name": "Stop 28 @ Zone 27 - Sector A",
+    "lat": 37.82617,
+    "lon": -122.3221,
+    "address_zone_id": "ZONE-000027",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000029",
+    "stop_name": "Stop 29 @ Zone 28 - Sector B",
+    "lat": 37.729596,
+    "lon": -122.617624,
+    "address_zone_id": "ZONE-000028",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000030",
+    "stop_name": "Stop 30 @ Zone 29 - Sector C",
+    "lat": 37.672627,
+    "lon": -122.255708,
+    "address_zone_id": "ZONE-000029",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-10T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000031",
+    "stop_name": "Stop 31 @ Zone 30 - Sector D",
+    "lat": 37.808619,
+    "lon": -122.258237,
+    "address_zone_id": "ZONE-000030",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-20T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000032",
+    "stop_name": "Stop 32 @ Zone 31 - Sector E",
+    "lat": 37.772049,
+    "lon": -122.607983,
+    "address_zone_id": "ZONE-000031",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-10T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000033",
+    "stop_name": "Stop 33 @ Zone 32 - Sector F",
+    "lat": 37.691003,
+    "lon": -122.6017,
+    "address_zone_id": "ZONE-000032",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000034",
+    "stop_name": "Stop 34 @ Zone 33 - Sector G",
+    "lat": 37.736347,
+    "lon": -122.532718,
+    "address_zone_id": "ZONE-000033",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000035",
+    "stop_name": "Stop 35 @ Zone 34 - Sector H",
+    "lat": 37.826584,
+    "lon": -122.392672,
+    "address_zone_id": "ZONE-000034",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000036",
+    "stop_name": "Stop 36 @ Zone 35 - Sector I",
+    "lat": 37.841267,
+    "lon": -122.40103,
+    "address_zone_id": "ZONE-000035",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000037",
+    "stop_name": "Stop 37 @ Zone 36 - Sector J",
+    "lat": 37.913441,
+    "lon": -122.509145,
+    "address_zone_id": "ZONE-000036",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000038",
+    "stop_name": "Stop 38 @ Zone 37 - Sector K",
+    "lat": 37.867816,
+    "lon": -122.490951,
+    "address_zone_id": "ZONE-000037",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-26T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000039",
+    "stop_name": "Stop 39 @ Zone 38 - Sector L",
+    "lat": 37.73399,
+    "lon": -122.317743,
+    "address_zone_id": "ZONE-000038",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000040",
+    "stop_name": "Stop 40 @ Zone 39 - Sector M",
+    "lat": 37.802023,
+    "lon": -122.335037,
+    "address_zone_id": "ZONE-000039",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000041",
+    "stop_name": "Stop 41 @ Zone 40 - Sector N",
+    "lat": 37.866163,
+    "lon": -122.539888,
+    "address_zone_id": "ZONE-000040",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000042",
+    "stop_name": "Stop 42 @ Zone 41 - Sector O",
+    "lat": 37.652877,
+    "lon": -122.411168,
+    "address_zone_id": "ZONE-000041",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000043",
+    "stop_name": "Stop 43 @ Zone 42 - Sector P",
+    "lat": 37.654324,
+    "lon": -122.238705,
+    "address_zone_id": "ZONE-000042",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-10T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000044",
+    "stop_name": "Stop 44 @ Zone 43 - Sector Q",
+    "lat": 37.872283,
+    "lon": -122.281996,
+    "address_zone_id": "ZONE-000043",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000045",
+    "stop_name": "Stop 45 @ Zone 44 - Sector R",
+    "lat": 37.890797,
+    "lon": -122.323294,
+    "address_zone_id": "ZONE-000044",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000046",
+    "stop_name": "Stop 46 @ Zone 45 - Sector S",
+    "lat": 37.816544,
+    "lon": -122.405381,
+    "address_zone_id": "ZONE-000045",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000047",
+    "stop_name": "Stop 47 @ Zone 46 - Sector T",
+    "lat": 37.761912,
+    "lon": -122.295614,
+    "address_zone_id": "ZONE-000046",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000048",
+    "stop_name": "Stop 48 @ Zone 47 - Sector U",
+    "lat": 37.846181,
+    "lon": -122.278809,
+    "address_zone_id": "ZONE-000047",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000049",
+    "stop_name": "Stop 49 @ Zone 48 - Sector V",
+    "lat": 37.750408,
+    "lon": -122.261841,
+    "address_zone_id": "ZONE-000048",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000050",
+    "stop_name": "Stop 50 @ Zone 49 - Sector W",
+    "lat": 37.673396,
+    "lon": -122.430388,
+    "address_zone_id": "ZONE-000049",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000051",
+    "stop_name": "Stop 51 @ Zone 50 - Sector X",
+    "lat": 37.825154,
+    "lon": -122.36386,
+    "address_zone_id": "ZONE-000050",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000052",
+    "stop_name": "Stop 52 @ Zone 51 - Sector Y",
+    "lat": 37.785857,
+    "lon": -122.565824,
+    "address_zone_id": "ZONE-000051",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000053",
+    "stop_name": "Stop 53 @ Zone 52 - Sector @",
+    "lat": 37.703389,
+    "lon": -122.581192,
+    "address_zone_id": "ZONE-000052",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000054",
+    "stop_name": "Stop 54 @ Zone 53 - Sector A",
+    "lat": 37.873449,
+    "lon": -122.375936,
+    "address_zone_id": "ZONE-000053",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-15T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000055",
+    "stop_name": "Stop 55 @ Zone 54 - Sector B",
+    "lat": 37.632693,
+    "lon": -122.496802,
+    "address_zone_id": "ZONE-000054",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000056",
+    "stop_name": "Stop 56 @ Zone 55 - Sector C",
+    "lat": 37.725911,
+    "lon": -122.391568,
+    "address_zone_id": "ZONE-000055",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-03T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000057",
+    "stop_name": "Stop 57 @ Zone 56 - Sector D",
+    "lat": 37.819593,
+    "lon": -122.601045,
+    "address_zone_id": "ZONE-000056",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000058",
+    "stop_name": "Stop 58 @ Zone 57 - Sector E",
+    "lat": 37.761706,
+    "lon": -122.542956,
+    "address_zone_id": "ZONE-000057",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-22T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000059",
+    "stop_name": "Stop 59 @ Zone 58 - Sector F",
+    "lat": 37.920552,
+    "lon": -122.566041,
+    "address_zone_id": "ZONE-000058",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000060",
+    "stop_name": "Stop 60 @ Zone 59 - Sector G",
+    "lat": 37.764419,
+    "lon": -122.259345,
+    "address_zone_id": "ZONE-000059",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000061",
+    "stop_name": "Stop 61 @ Zone 60 - Sector H",
+    "lat": 37.659778,
+    "lon": -122.275192,
+    "address_zone_id": "ZONE-000060",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-23T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000062",
+    "stop_name": "Stop 62 @ Zone 61 - Sector I",
+    "lat": 37.672189,
+    "lon": -122.32341,
+    "address_zone_id": "ZONE-000061",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000063",
+    "stop_name": "Stop 63 @ Zone 62 - Sector J",
+    "lat": 37.792737,
+    "lon": -122.494597,
+    "address_zone_id": "ZONE-000062",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000064",
+    "stop_name": "Stop 64 @ Zone 63 - Sector K",
+    "lat": 37.619592,
+    "lon": -122.372786,
+    "address_zone_id": "ZONE-000063",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000065",
+    "stop_name": "Stop 65 @ Zone 64 - Sector L",
+    "lat": 37.777744,
+    "lon": -122.420417,
+    "address_zone_id": "ZONE-000064",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-10T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000066",
+    "stop_name": "Stop 66 @ Zone 65 - Sector M",
+    "lat": 37.696728,
+    "lon": -122.535296,
+    "address_zone_id": "ZONE-000065",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000067",
+    "stop_name": "Stop 67 @ Zone 66 - Sector N",
+    "lat": 37.754423,
+    "lon": -122.454666,
+    "address_zone_id": "ZONE-000066",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000068",
+    "stop_name": "Stop 68 @ Zone 67 - Sector O",
+    "lat": 37.648871,
+    "lon": -122.521402,
+    "address_zone_id": "ZONE-000067",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000069",
+    "stop_name": "Stop 69 @ Zone 68 - Sector P",
+    "lat": 37.796026,
+    "lon": -122.341417,
+    "address_zone_id": "ZONE-000068",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-23T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000070",
+    "stop_name": "Stop 70 @ Zone 69 - Sector Q",
+    "lat": 37.788477,
+    "lon": -122.429059,
+    "address_zone_id": "ZONE-000069",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000071",
+    "stop_name": "Stop 71 @ Zone 70 - Sector R",
+    "lat": 37.736425,
+    "lon": -122.343652,
+    "address_zone_id": "ZONE-000070",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-12-01T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000072",
+    "stop_name": "Stop 72 @ Zone 71 - Sector S",
+    "lat": 37.886783,
+    "lon": -122.264638,
+    "address_zone_id": "ZONE-000071",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000073",
+    "stop_name": "Stop 73 @ Zone 72 - Sector T",
+    "lat": 37.663002,
+    "lon": -122.263958,
+    "address_zone_id": "ZONE-000072",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000074",
+    "stop_name": "Stop 74 @ Zone 73 - Sector U",
+    "lat": 37.879491,
+    "lon": -122.608929,
+    "address_zone_id": "ZONE-000073",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000075",
+    "stop_name": "Stop 75 @ Zone 74 - Sector V",
+    "lat": 37.684923,
+    "lon": -122.237867,
+    "address_zone_id": "ZONE-000074",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000076",
+    "stop_name": "Stop 76 @ Zone 75 - Sector W",
+    "lat": 37.810034,
+    "lon": -122.557296,
+    "address_zone_id": "ZONE-000075",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000077",
+    "stop_name": "Stop 77 @ Zone 76 - Sector X",
+    "lat": 37.709021,
+    "lon": -122.565424,
+    "address_zone_id": "ZONE-000076",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-16T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000078",
+    "stop_name": "Stop 78 @ Zone 77 - Sector Y",
+    "lat": 37.801705,
+    "lon": -122.221315,
+    "address_zone_id": "ZONE-000077",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000079",
+    "stop_name": "Stop 79 @ Zone 78 - Sector @",
+    "lat": 37.856913,
+    "lon": -122.596467,
+    "address_zone_id": "ZONE-000078",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000080",
+    "stop_name": "Stop 80 @ Zone 79 - Sector A",
+    "lat": 37.705003,
+    "lon": -122.481003,
+    "address_zone_id": "ZONE-000079",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-27T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000081",
+    "stop_name": "Stop 81 @ Zone 68 - Sector P",
+    "lat": 37.799828,
+    "lon": -122.341854,
+    "address_zone_id": "ZONE-000068",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000082",
+    "stop_name": "Stop 82 @ Zone 63 - Sector K",
+    "lat": 37.620641,
+    "lon": -122.348288,
+    "address_zone_id": "ZONE-000063",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000083",
+    "stop_name": "Stop 83 @ Zone 28 - Sector B",
+    "lat": 37.715459,
+    "lon": -122.608138,
+    "address_zone_id": "ZONE-000028",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-10T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000084",
+    "stop_name": "Stop 84 @ Zone 19 - Sector S",
+    "lat": 37.636423,
+    "lon": -122.57937,
+    "address_zone_id": "ZONE-000019",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-16T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000085",
+    "stop_name": "Stop 85 @ Zone 48 - Sector V",
+    "lat": 37.754159,
+    "lon": -122.239964,
+    "address_zone_id": "ZONE-000048",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000086",
+    "stop_name": "Stop 86 @ Zone 50 - Sector X",
+    "lat": 37.852216,
+    "lon": -122.371928,
+    "address_zone_id": "ZONE-000050",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-10T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000087",
+    "stop_name": "Stop 87 @ Zone 69 - Sector Q",
+    "lat": 37.753668,
+    "lon": -122.432784,
+    "address_zone_id": "ZONE-000069",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000088",
+    "stop_name": "Stop 88 @ Zone 74 - Sector V",
+    "lat": 37.701585,
+    "lon": -122.247923,
+    "address_zone_id": "ZONE-000074",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000089",
+    "stop_name": "Stop 89 @ Zone 43 - Sector Q",
+    "lat": 37.84028,
+    "lon": -122.279481,
+    "address_zone_id": "ZONE-000043",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000090",
+    "stop_name": "Stop 90 @ Zone 14 - Sector N",
+    "lat": 37.86351,
+    "lon": -122.245748,
+    "address_zone_id": "ZONE-000014",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-12-01T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000091",
+    "stop_name": "Stop 91 @ Zone 74 - Sector V",
+    "lat": 37.677146,
+    "lon": -122.253731,
+    "address_zone_id": "ZONE-000074",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000092",
+    "stop_name": "Stop 92 @ Zone 50 - Sector X",
+    "lat": 37.830213,
+    "lon": -122.384585,
+    "address_zone_id": "ZONE-000050",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000093",
+    "stop_name": "Stop 93 @ Zone 25 - Sector Y",
+    "lat": 37.637861,
+    "lon": -122.327736,
+    "address_zone_id": "ZONE-000025",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000094",
+    "stop_name": "Stop 94 @ Zone 62 - Sector J",
+    "lat": 37.813134,
+    "lon": -122.506889,
+    "address_zone_id": "ZONE-000062",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000095",
+    "stop_name": "Stop 95 @ Zone 61 - Sector I",
+    "lat": 37.66527,
+    "lon": -122.306465,
+    "address_zone_id": "ZONE-000061",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-15T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000096",
+    "stop_name": "Stop 96 @ Zone 60 - Sector H",
+    "lat": 37.680735,
+    "lon": -122.261819,
+    "address_zone_id": "ZONE-000060",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-26T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000097",
+    "stop_name": "Stop 97 @ Zone 34 - Sector H",
+    "lat": 37.826932,
+    "lon": -122.389626,
+    "address_zone_id": "ZONE-000034",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-10T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000098",
+    "stop_name": "Stop 98 @ Zone 11 - Sector K",
+    "lat": 37.751143,
+    "lon": -122.266758,
+    "address_zone_id": "ZONE-000011",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-26T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000099",
+    "stop_name": "Stop 99 @ Zone 5 - Sector E",
+    "lat": 37.731309,
+    "lon": -122.325989,
+    "address_zone_id": "ZONE-000005",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-26T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000100",
+    "stop_name": "Stop 100 @ Zone 31 - Sector E",
+    "lat": 37.752558,
+    "lon": -122.597016,
+    "address_zone_id": "ZONE-000031",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000101",
+    "stop_name": "Stop 101 @ Zone 61 - Sector I",
+    "lat": 37.68875,
+    "lon": -122.332137,
+    "address_zone_id": "ZONE-000061",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000102",
+    "stop_name": "Stop 102 @ Zone 31 - Sector E",
+    "lat": 37.758728,
+    "lon": -122.626768,
+    "address_zone_id": "ZONE-000031",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-20T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000103",
+    "stop_name": "Stop 103 @ Zone 18 - Sector R",
+    "lat": 37.74111,
+    "lon": -122.487307,
+    "address_zone_id": "ZONE-000018",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000104",
+    "stop_name": "Stop 104 @ Zone 5 - Sector E",
+    "lat": 37.730142,
+    "lon": -122.353743,
+    "address_zone_id": "ZONE-000005",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000105",
+    "stop_name": "Stop 105 @ Zone 1 - Sector A",
+    "lat": 37.811785,
+    "lon": -122.398177,
+    "address_zone_id": "ZONE-000001",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000106",
+    "stop_name": "Stop 106 @ Zone 59 - Sector G",
+    "lat": 37.745412,
+    "lon": -122.2484,
+    "address_zone_id": "ZONE-000059",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-10T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000107",
+    "stop_name": "Stop 107 @ Zone 5 - Sector E",
+    "lat": 37.72599,
+    "lon": -122.335964,
+    "address_zone_id": "ZONE-000005",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000108",
+    "stop_name": "Stop 108 @ Zone 52 - Sector @",
+    "lat": 37.723774,
+    "lon": -122.583254,
+    "address_zone_id": "ZONE-000052",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000109",
+    "stop_name": "Stop 109 @ Zone 73 - Sector U",
+    "lat": 37.878208,
+    "lon": -122.59326,
+    "address_zone_id": "ZONE-000073",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-12-01T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000110",
+    "stop_name": "Stop 110 @ Zone 24 - Sector X",
+    "lat": 37.818628,
+    "lon": -122.606899,
+    "address_zone_id": "ZONE-000024",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-15T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000111",
+    "stop_name": "Stop 111 @ Zone 53 - Sector A",
+    "lat": 37.873871,
+    "lon": -122.380755,
+    "address_zone_id": "ZONE-000053",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000112",
+    "stop_name": "Stop 112 @ Zone 75 - Sector W",
+    "lat": 37.834014,
+    "lon": -122.557,
+    "address_zone_id": "ZONE-000075",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000113",
+    "stop_name": "Stop 113 @ Zone 40 - Sector N",
+    "lat": 37.875043,
+    "lon": -122.567767,
+    "address_zone_id": "ZONE-000040",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000114",
+    "stop_name": "Stop 114 @ Zone 2 - Sector B",
+    "lat": 37.681377,
+    "lon": -122.223027,
+    "address_zone_id": "ZONE-000002",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-20T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000115",
+    "stop_name": "Stop 115 @ Zone 9 - Sector I",
+    "lat": 37.677539,
+    "lon": -122.466229,
+    "address_zone_id": "ZONE-000009",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-22T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000116",
+    "stop_name": "Stop 116 @ Zone 19 - Sector S",
+    "lat": 37.601912,
+    "lon": -122.576606,
+    "address_zone_id": "ZONE-000019",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000117",
+    "stop_name": "Stop 117 @ Zone 64 - Sector L",
+    "lat": 37.782694,
+    "lon": -122.413514,
+    "address_zone_id": "ZONE-000064",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000118",
+    "stop_name": "Stop 118 @ Zone 35 - Sector I",
+    "lat": 37.829656,
+    "lon": -122.41633,
+    "address_zone_id": "ZONE-000035",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-10T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000119",
+    "stop_name": "Stop 119 @ Zone 3 - Sector C",
+    "lat": 37.673826,
+    "lon": -122.631985,
+    "address_zone_id": "ZONE-000003",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000120",
+    "stop_name": "Stop 120 @ Zone 9 - Sector I",
+    "lat": 37.642798,
+    "lon": -122.475462,
+    "address_zone_id": "ZONE-000009",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-22T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000121",
+    "stop_name": "Stop 121 @ Zone 23 - Sector W",
+    "lat": 37.805751,
+    "lon": -122.209472,
+    "address_zone_id": "ZONE-000023",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-03T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000122",
+    "stop_name": "Stop 122 @ Zone 56 - Sector D",
+    "lat": 37.813483,
+    "lon": -122.63094,
+    "address_zone_id": "ZONE-000056",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000123",
+    "stop_name": "Stop 123 @ Zone 28 - Sector B",
+    "lat": 37.720349,
+    "lon": -122.607049,
+    "address_zone_id": "ZONE-000028",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-16T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000124",
+    "stop_name": "Stop 124 @ Zone 19 - Sector S",
+    "lat": 37.6115,
+    "lon": -122.603228,
+    "address_zone_id": "ZONE-000019",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000125",
+    "stop_name": "Stop 125 @ Zone 3 - Sector C",
+    "lat": 37.684726,
+    "lon": -122.635732,
+    "address_zone_id": "ZONE-000003",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-23T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000126",
+    "stop_name": "Stop 126 @ Zone 56 - Sector D",
+    "lat": 37.805196,
+    "lon": -122.593824,
+    "address_zone_id": "ZONE-000056",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000127",
+    "stop_name": "Stop 127 @ Zone 23 - Sector W",
+    "lat": 37.804317,
+    "lon": -122.228326,
+    "address_zone_id": "ZONE-000023",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000128",
+    "stop_name": "Stop 128 @ Zone 64 - Sector L",
+    "lat": 37.791825,
+    "lon": -122.415791,
+    "address_zone_id": "ZONE-000064",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000129",
+    "stop_name": "Stop 129 @ Zone 44 - Sector R",
+    "lat": 37.878119,
+    "lon": -122.362829,
+    "address_zone_id": "ZONE-000044",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000130",
+    "stop_name": "Stop 130 @ Zone 13 - Sector M",
+    "lat": 37.653151,
+    "lon": -122.567417,
+    "address_zone_id": "ZONE-000013",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000131",
+    "stop_name": "Stop 131 @ Zone 25 - Sector Y",
+    "lat": 37.633093,
+    "lon": -122.346156,
+    "address_zone_id": "ZONE-000025",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000132",
+    "stop_name": "Stop 132 @ Zone 35 - Sector I",
+    "lat": 37.824173,
+    "lon": -122.429791,
+    "address_zone_id": "ZONE-000035",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000133",
+    "stop_name": "Stop 133 @ Zone 53 - Sector A",
+    "lat": 37.86647,
+    "lon": -122.373251,
+    "address_zone_id": "ZONE-000053",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000134",
+    "stop_name": "Stop 134 @ Zone 75 - Sector W",
+    "lat": 37.823751,
+    "lon": -122.567059,
+    "address_zone_id": "ZONE-000075",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000135",
+    "stop_name": "Stop 135 @ Zone 33 - Sector G",
+    "lat": 37.73342,
+    "lon": -122.542282,
+    "address_zone_id": "ZONE-000033",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000136",
+    "stop_name": "Stop 136 @ Zone 62 - Sector J",
+    "lat": 37.821273,
+    "lon": -122.508191,
+    "address_zone_id": "ZONE-000062",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-15T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000137",
+    "stop_name": "Stop 137 @ Zone 10 - Sector J",
+    "lat": 37.628743,
+    "lon": -122.253048,
+    "address_zone_id": "ZONE-000010",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-15T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000138",
+    "stop_name": "Stop 138 @ Zone 77 - Sector Y",
+    "lat": 37.829516,
+    "lon": -122.241788,
+    "address_zone_id": "ZONE-000077",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000139",
+    "stop_name": "Stop 139 @ Zone 2 - Sector B",
+    "lat": 37.686792,
+    "lon": -122.236621,
+    "address_zone_id": "ZONE-000002",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-16T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000140",
+    "stop_name": "Stop 140 @ Zone 25 - Sector Y",
+    "lat": 37.621754,
+    "lon": -122.31796,
+    "address_zone_id": "ZONE-000025",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000141",
+    "stop_name": "Stop 141 @ Zone 29 - Sector C",
+    "lat": 37.65142,
+    "lon": -122.24663,
+    "address_zone_id": "ZONE-000029",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000142",
+    "stop_name": "Stop 142 @ Zone 1 - Sector A",
+    "lat": 37.826256,
+    "lon": -122.379154,
+    "address_zone_id": "ZONE-000001",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000143",
+    "stop_name": "Stop 143 @ Zone 9 - Sector I",
+    "lat": 37.677642,
+    "lon": -122.474791,
+    "address_zone_id": "ZONE-000009",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-01T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000144",
+    "stop_name": "Stop 144 @ Zone 13 - Sector M",
+    "lat": 37.652187,
+    "lon": -122.542709,
+    "address_zone_id": "ZONE-000013",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000145",
+    "stop_name": "Stop 145 @ Zone 46 - Sector T",
+    "lat": 37.777286,
+    "lon": -122.289249,
+    "address_zone_id": "ZONE-000046",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000146",
+    "stop_name": "Stop 146 @ Zone 52 - Sector @",
+    "lat": 37.716953,
+    "lon": -122.595435,
+    "address_zone_id": "ZONE-000052",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000147",
+    "stop_name": "Stop 147 @ Zone 55 - Sector C",
+    "lat": 37.720739,
+    "lon": -122.424052,
+    "address_zone_id": "ZONE-000055",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000148",
+    "stop_name": "Stop 148 @ Zone 17 - Sector Q",
+    "lat": 37.681336,
+    "lon": -122.589413,
+    "address_zone_id": "ZONE-000017",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000149",
+    "stop_name": "Stop 149 @ Zone 28 - Sector B",
+    "lat": 37.728278,
+    "lon": -122.604736,
+    "address_zone_id": "ZONE-000028",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000150",
+    "stop_name": "Stop 150 @ Zone 41 - Sector O",
+    "lat": 37.680398,
+    "lon": -122.417961,
+    "address_zone_id": "ZONE-000041",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-16T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000151",
+    "stop_name": "Stop 151 @ Zone 43 - Sector Q",
+    "lat": 37.845025,
+    "lon": -122.2773,
+    "address_zone_id": "ZONE-000043",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-16T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000152",
+    "stop_name": "Stop 152 @ Zone 32 - Sector F",
+    "lat": 37.719703,
+    "lon": -122.628963,
+    "address_zone_id": "ZONE-000032",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-27T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000153",
+    "stop_name": "Stop 153 @ Zone 26 - Sector @",
+    "lat": 37.879313,
+    "lon": -122.416739,
+    "address_zone_id": "ZONE-000026",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000154",
+    "stop_name": "Stop 154 @ Zone 14 - Sector N",
+    "lat": 37.844218,
+    "lon": -122.246347,
+    "address_zone_id": "ZONE-000014",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000155",
+    "stop_name": "Stop 155 @ Zone 78 - Sector @",
+    "lat": 37.86045,
+    "lon": -122.5829,
+    "address_zone_id": "ZONE-000078",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000156",
+    "stop_name": "Stop 156 @ Zone 18 - Sector R",
+    "lat": 37.737613,
+    "lon": -122.515505,
+    "address_zone_id": "ZONE-000018",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000157",
+    "stop_name": "Stop 157 @ Zone 54 - Sector B",
+    "lat": 37.631972,
+    "lon": -122.529651,
+    "address_zone_id": "ZONE-000054",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-18T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000158",
+    "stop_name": "Stop 158 @ Zone 76 - Sector X",
+    "lat": 37.680375,
+    "lon": -122.532163,
+    "address_zone_id": "ZONE-000076",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000159",
+    "stop_name": "Stop 159 @ Zone 65 - Sector M",
+    "lat": 37.710499,
+    "lon": -122.531145,
+    "address_zone_id": "ZONE-000065",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-22T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000160",
+    "stop_name": "Stop 160 @ Zone 24 - Sector X",
+    "lat": 37.824251,
+    "lon": -122.58984,
+    "address_zone_id": "ZONE-000024",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000161",
+    "stop_name": "Stop 161 @ Zone 32 - Sector F",
+    "lat": 37.722805,
+    "lon": -122.630326,
+    "address_zone_id": "ZONE-000032",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000162",
+    "stop_name": "Stop 162 @ Zone 22 - Sector V",
+    "lat": 37.649008,
+    "lon": -122.621248,
+    "address_zone_id": "ZONE-000022",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000163",
+    "stop_name": "Stop 163 @ Zone 75 - Sector W",
+    "lat": 37.813557,
+    "lon": -122.565899,
+    "address_zone_id": "ZONE-000075",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000164",
+    "stop_name": "Stop 164 @ Zone 61 - Sector I",
+    "lat": 37.685646,
+    "lon": -122.330344,
+    "address_zone_id": "ZONE-000061",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000165",
+    "stop_name": "Stop 165 @ Zone 7 - Sector G",
+    "lat": 37.64669,
+    "lon": -122.585635,
+    "address_zone_id": "ZONE-000007",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-03T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000166",
+    "stop_name": "Stop 166 @ Zone 43 - Sector Q",
+    "lat": 37.844871,
+    "lon": -122.284123,
+    "address_zone_id": "ZONE-000043",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000167",
+    "stop_name": "Stop 167 @ Zone 41 - Sector O",
+    "lat": 37.678063,
+    "lon": -122.401096,
+    "address_zone_id": "ZONE-000041",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000168",
+    "stop_name": "Stop 168 @ Zone 79 - Sector A",
+    "lat": 37.713588,
+    "lon": -122.481246,
+    "address_zone_id": "ZONE-000079",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-12-01T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000169",
+    "stop_name": "Stop 169 @ Zone 31 - Sector E",
+    "lat": 37.769949,
+    "lon": -122.605694,
+    "address_zone_id": "ZONE-000031",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-27T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000170",
+    "stop_name": "Stop 170 @ Zone 54 - Sector B",
+    "lat": 37.611702,
+    "lon": -122.520136,
+    "address_zone_id": "ZONE-000054",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-26T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000171",
+    "stop_name": "Stop 171 @ Zone 44 - Sector R",
+    "lat": 37.880522,
+    "lon": -122.339063,
+    "address_zone_id": "ZONE-000044",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000172",
+    "stop_name": "Stop 172 @ Zone 7 - Sector G",
+    "lat": 37.660259,
+    "lon": -122.568788,
+    "address_zone_id": "ZONE-000007",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000173",
+    "stop_name": "Stop 173 @ Zone 53 - Sector A",
+    "lat": 37.877975,
+    "lon": -122.38038,
+    "address_zone_id": "ZONE-000053",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000174",
+    "stop_name": "Stop 174 @ Zone 58 - Sector F",
+    "lat": 37.927083,
+    "lon": -122.594203,
+    "address_zone_id": "ZONE-000058",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-26T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000175",
+    "stop_name": "Stop 175 @ Zone 5 - Sector E",
+    "lat": 37.704532,
+    "lon": -122.355121,
+    "address_zone_id": "ZONE-000005",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000176",
+    "stop_name": "Stop 176 @ Zone 14 - Sector N",
+    "lat": 37.856437,
+    "lon": -122.254164,
+    "address_zone_id": "ZONE-000014",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-16T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000177",
+    "stop_name": "Stop 177 @ Zone 53 - Sector A",
+    "lat": 37.885081,
+    "lon": -122.382408,
+    "address_zone_id": "ZONE-000053",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000178",
+    "stop_name": "Stop 178 @ Zone 33 - Sector G",
+    "lat": 37.71433,
+    "lon": -122.546116,
+    "address_zone_id": "ZONE-000033",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000179",
+    "stop_name": "Stop 179 @ Zone 48 - Sector V",
+    "lat": 37.767041,
+    "lon": -122.258343,
+    "address_zone_id": "ZONE-000048",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000180",
+    "stop_name": "Stop 180 @ Zone 20 - Sector T",
+    "lat": 37.810102,
+    "lon": -122.432968,
+    "address_zone_id": "ZONE-000020",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000181",
+    "stop_name": "Stop 181 @ Zone 60 - Sector H",
+    "lat": 37.680053,
+    "lon": -122.255582,
+    "address_zone_id": "ZONE-000060",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000182",
+    "stop_name": "Stop 182 @ Zone 25 - Sector Y",
+    "lat": 37.621829,
+    "lon": -122.350435,
+    "address_zone_id": "ZONE-000025",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-25T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000183",
+    "stop_name": "Stop 183 @ Zone 68 - Sector P",
+    "lat": 37.780519,
+    "lon": -122.349021,
+    "address_zone_id": "ZONE-000068",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000184",
+    "stop_name": "Stop 184 @ Zone 42 - Sector P",
+    "lat": 37.674009,
+    "lon": -122.216091,
+    "address_zone_id": "ZONE-000042",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000185",
+    "stop_name": "Stop 185 @ Zone 17 - Sector Q",
+    "lat": 37.667633,
+    "lon": -122.615912,
+    "address_zone_id": "ZONE-000017",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000186",
+    "stop_name": "Stop 186 @ Zone 7 - Sector G",
+    "lat": 37.653493,
+    "lon": -122.592602,
+    "address_zone_id": "ZONE-000007",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000187",
+    "stop_name": "Stop 187 @ Zone 54 - Sector B",
+    "lat": 37.62963,
+    "lon": -122.526968,
+    "address_zone_id": "ZONE-000054",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000188",
+    "stop_name": "Stop 188 @ Zone 46 - Sector T",
+    "lat": 37.772457,
+    "lon": -122.27724,
+    "address_zone_id": "ZONE-000046",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000189",
+    "stop_name": "Stop 189 @ Zone 76 - Sector X",
+    "lat": 37.713369,
+    "lon": -122.559424,
+    "address_zone_id": "ZONE-000076",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-16T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000190",
+    "stop_name": "Stop 190 @ Zone 29 - Sector C",
+    "lat": 37.669565,
+    "lon": -122.262004,
+    "address_zone_id": "ZONE-000029",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000191",
+    "stop_name": "Stop 191 @ Zone 5 - Sector E",
+    "lat": 37.728978,
+    "lon": -122.321043,
+    "address_zone_id": "ZONE-000005",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000192",
+    "stop_name": "Stop 192 @ Zone 5 - Sector E",
+    "lat": 37.727854,
+    "lon": -122.347711,
+    "address_zone_id": "ZONE-000005",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000193",
+    "stop_name": "Stop 193 @ Zone 79 - Sector A",
+    "lat": 37.689703,
+    "lon": -122.514646,
+    "address_zone_id": "ZONE-000079",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000194",
+    "stop_name": "Stop 194 @ Zone 26 - Sector @",
+    "lat": 37.861007,
+    "lon": -122.411451,
+    "address_zone_id": "ZONE-000026",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000195",
+    "stop_name": "Stop 195 @ Zone 15 - Sector O",
+    "lat": 37.757426,
+    "lon": -122.300586,
+    "address_zone_id": "ZONE-000015",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000196",
+    "stop_name": "Stop 196 @ Zone 46 - Sector T",
+    "lat": 37.757886,
+    "lon": -122.266782,
+    "address_zone_id": "ZONE-000046",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000197",
+    "stop_name": "Stop 197 @ Zone 10 - Sector J",
+    "lat": 37.653957,
+    "lon": -122.21625,
+    "address_zone_id": "ZONE-000010",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-23T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000198",
+    "stop_name": "Stop 198 @ Zone 56 - Sector D",
+    "lat": 37.795383,
+    "lon": -122.604166,
+    "address_zone_id": "ZONE-000056",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000199",
+    "stop_name": "Stop 199 @ Zone 39 - Sector M",
+    "lat": 37.791711,
+    "lon": -122.321474,
+    "address_zone_id": "ZONE-000039",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-18T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000200",
+    "stop_name": "Stop 200 @ Zone 12 - Sector L",
+    "lat": 37.694385,
+    "lon": -122.269721,
+    "address_zone_id": "ZONE-000012",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-23T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000201",
+    "stop_name": "Stop 201 @ Zone 67 - Sector O",
+    "lat": 37.637924,
+    "lon": -122.538623,
+    "address_zone_id": "ZONE-000067",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-20T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000202",
+    "stop_name": "Stop 202 @ Zone 46 - Sector T",
+    "lat": 37.765251,
+    "lon": -122.291562,
+    "address_zone_id": "ZONE-000046",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-23T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000203",
+    "stop_name": "Stop 203 @ Zone 11 - Sector K",
+    "lat": 37.754413,
+    "lon": -122.241028,
+    "address_zone_id": "ZONE-000011",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-19T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000204",
+    "stop_name": "Stop 204 @ Zone 10 - Sector J",
+    "lat": 37.631595,
+    "lon": -122.24152,
+    "address_zone_id": "ZONE-000010",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-22T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000205",
+    "stop_name": "Stop 205 @ Zone 32 - Sector F",
+    "lat": 37.721383,
+    "lon": -122.620346,
+    "address_zone_id": "ZONE-000032",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-18T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000206",
+    "stop_name": "Stop 206 @ Zone 69 - Sector Q",
+    "lat": 37.76275,
+    "lon": -122.434637,
+    "address_zone_id": "ZONE-000069",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000207",
+    "stop_name": "Stop 207 @ Zone 12 - Sector L",
+    "lat": 37.678865,
+    "lon": -122.243579,
+    "address_zone_id": "ZONE-000012",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000208",
+    "stop_name": "Stop 208 @ Zone 38 - Sector L",
+    "lat": 37.729661,
+    "lon": -122.284286,
+    "address_zone_id": "ZONE-000038",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-10T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000209",
+    "stop_name": "Stop 209 @ Zone 40 - Sector N",
+    "lat": 37.880609,
+    "lon": -122.530118,
+    "address_zone_id": "ZONE-000040",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000210",
+    "stop_name": "Stop 210 @ Zone 74 - Sector V",
+    "lat": 37.697044,
+    "lon": -122.250547,
+    "address_zone_id": "ZONE-000074",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000211",
+    "stop_name": "Stop 211 @ Zone 72 - Sector T",
+    "lat": 37.627806,
+    "lon": -122.241842,
+    "address_zone_id": "ZONE-000072",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000212",
+    "stop_name": "Stop 212 @ Zone 19 - Sector S",
+    "lat": 37.637036,
+    "lon": -122.572296,
+    "address_zone_id": "ZONE-000019",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000213",
+    "stop_name": "Stop 213 @ Zone 76 - Sector X",
+    "lat": 37.686113,
+    "lon": -122.541971,
+    "address_zone_id": "ZONE-000076",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000214",
+    "stop_name": "Stop 214 @ Zone 48 - Sector V",
+    "lat": 37.751862,
+    "lon": -122.243796,
+    "address_zone_id": "ZONE-000048",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000215",
+    "stop_name": "Stop 215 @ Zone 27 - Sector A",
+    "lat": 37.806244,
+    "lon": -122.336629,
+    "address_zone_id": "ZONE-000027",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000216",
+    "stop_name": "Stop 216 @ Zone 10 - Sector J",
+    "lat": 37.621678,
+    "lon": -122.221364,
+    "address_zone_id": "ZONE-000010",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000217",
+    "stop_name": "Stop 217 @ Zone 33 - Sector G",
+    "lat": 37.735337,
+    "lon": -122.53292,
+    "address_zone_id": "ZONE-000033",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-20T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000218",
+    "stop_name": "Stop 218 @ Zone 44 - Sector R",
+    "lat": 37.878502,
+    "lon": -122.338584,
+    "address_zone_id": "ZONE-000044",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000219",
+    "stop_name": "Stop 219 @ Zone 65 - Sector M",
+    "lat": 37.725513,
+    "lon": -122.539795,
+    "address_zone_id": "ZONE-000065",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-03T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000220",
+    "stop_name": "Stop 220 @ Zone 10 - Sector J",
+    "lat": 37.630558,
+    "lon": -122.235525,
+    "address_zone_id": "ZONE-000010",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-12-01T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000221",
+    "stop_name": "Stop 221 @ Zone 40 - Sector N",
+    "lat": 37.886262,
+    "lon": -122.552362,
+    "address_zone_id": "ZONE-000040",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-26T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000222",
+    "stop_name": "Stop 222 @ Zone 79 - Sector A",
+    "lat": 37.695233,
+    "lon": -122.498072,
+    "address_zone_id": "ZONE-000079",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000223",
+    "stop_name": "Stop 223 @ Zone 10 - Sector J",
+    "lat": 37.632732,
+    "lon": -122.232192,
+    "address_zone_id": "ZONE-000010",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-01T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000224",
+    "stop_name": "Stop 224 @ Zone 8 - Sector H",
+    "lat": 37.763382,
+    "lon": -122.387971,
+    "address_zone_id": "ZONE-000008",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-18T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000225",
+    "stop_name": "Stop 225 @ Zone 37 - Sector K",
+    "lat": 37.888914,
+    "lon": -122.486319,
+    "address_zone_id": "ZONE-000037",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000226",
+    "stop_name": "Stop 226 @ Zone 34 - Sector H",
+    "lat": 37.825373,
+    "lon": -122.398891,
+    "address_zone_id": "ZONE-000034",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000227",
+    "stop_name": "Stop 227 @ Zone 44 - Sector R",
+    "lat": 37.886484,
+    "lon": -122.326991,
+    "address_zone_id": "ZONE-000044",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000228",
+    "stop_name": "Stop 228 @ Zone 24 - Sector X",
+    "lat": 37.843205,
+    "lon": -122.604028,
+    "address_zone_id": "ZONE-000024",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000229",
+    "stop_name": "Stop 229 @ Zone 54 - Sector B",
+    "lat": 37.621082,
+    "lon": -122.501543,
+    "address_zone_id": "ZONE-000054",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000230",
+    "stop_name": "Stop 230 @ Zone 34 - Sector H",
+    "lat": 37.815059,
+    "lon": -122.365183,
+    "address_zone_id": "ZONE-000034",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-16T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000231",
+    "stop_name": "Stop 231 @ Zone 16 - Sector P",
+    "lat": 37.648873,
+    "lon": -122.44905,
+    "address_zone_id": "ZONE-000016",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-22T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000232",
+    "stop_name": "Stop 232 @ Zone 30 - Sector D",
+    "lat": 37.789791,
+    "lon": -122.268402,
+    "address_zone_id": "ZONE-000030",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000233",
+    "stop_name": "Stop 233 @ Zone 68 - Sector P",
+    "lat": 37.794522,
+    "lon": -122.340644,
+    "address_zone_id": "ZONE-000068",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000234",
+    "stop_name": "Stop 234 @ Zone 7 - Sector G",
+    "lat": 37.654008,
+    "lon": -122.576199,
+    "address_zone_id": "ZONE-000007",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000235",
+    "stop_name": "Stop 235 @ Zone 36 - Sector J",
+    "lat": 37.907994,
+    "lon": -122.491443,
+    "address_zone_id": "ZONE-000036",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000236",
+    "stop_name": "Stop 236 @ Zone 43 - Sector Q",
+    "lat": 37.860803,
+    "lon": -122.276478,
+    "address_zone_id": "ZONE-000043",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000237",
+    "stop_name": "Stop 237 @ Zone 33 - Sector G",
+    "lat": 37.725207,
+    "lon": -122.554067,
+    "address_zone_id": "ZONE-000033",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-26T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000238",
+    "stop_name": "Stop 238 @ Zone 67 - Sector O",
+    "lat": 37.626118,
+    "lon": -122.523796,
+    "address_zone_id": "ZONE-000067",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-23T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000239",
+    "stop_name": "Stop 239 @ Zone 51 - Sector Y",
+    "lat": 37.776388,
+    "lon": -122.576653,
+    "address_zone_id": "ZONE-000051",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000240",
+    "stop_name": "Stop 240 @ Zone 49 - Sector W",
+    "lat": 37.660388,
+    "lon": -122.424981,
+    "address_zone_id": "ZONE-000049",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-15T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000241",
+    "stop_name": "Stop 241 @ Zone 53 - Sector A",
+    "lat": 37.885529,
+    "lon": -122.391599,
+    "address_zone_id": "ZONE-000053",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000242",
+    "stop_name": "Stop 242 @ Zone 62 - Sector J",
+    "lat": 37.789178,
+    "lon": -122.502599,
+    "address_zone_id": "ZONE-000062",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000243",
+    "stop_name": "Stop 243 @ Zone 55 - Sector C",
+    "lat": 37.714472,
+    "lon": -122.396514,
+    "address_zone_id": "ZONE-000055",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-16T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000244",
+    "stop_name": "Stop 244 @ Zone 62 - Sector J",
+    "lat": 37.819532,
+    "lon": -122.512378,
+    "address_zone_id": "ZONE-000062",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000245",
+    "stop_name": "Stop 245 @ Zone 40 - Sector N",
+    "lat": 37.867183,
+    "lon": -122.536955,
+    "address_zone_id": "ZONE-000040",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000246",
+    "stop_name": "Stop 246 @ Zone 71 - Sector S",
+    "lat": 37.873436,
+    "lon": -122.245304,
+    "address_zone_id": "ZONE-000071",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000247",
+    "stop_name": "Stop 247 @ Zone 23 - Sector W",
+    "lat": 37.810722,
+    "lon": -122.207651,
+    "address_zone_id": "ZONE-000023",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-12-01T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000248",
+    "stop_name": "Stop 248 @ Zone 48 - Sector V",
+    "lat": 37.733412,
+    "lon": -122.26059,
+    "address_zone_id": "ZONE-000048",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000249",
+    "stop_name": "Stop 249 @ Zone 77 - Sector Y",
+    "lat": 37.810384,
+    "lon": -122.244602,
+    "address_zone_id": "ZONE-000077",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-26T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000250",
+    "stop_name": "Stop 250 @ Zone 22 - Sector V",
+    "lat": 37.622635,
+    "lon": -122.619166,
+    "address_zone_id": "ZONE-000022",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-14T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000251",
+    "stop_name": "Stop 251 @ Zone 19 - Sector S",
+    "lat": 37.637139,
+    "lon": -122.585427,
+    "address_zone_id": "ZONE-000019",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000252",
+    "stop_name": "Stop 252 @ Zone 5 - Sector E",
+    "lat": 37.710908,
+    "lon": -122.346187,
+    "address_zone_id": "ZONE-000005",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-16T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000253",
+    "stop_name": "Stop 253 @ Zone 16 - Sector P",
+    "lat": 37.644883,
+    "lon": -122.472508,
+    "address_zone_id": "ZONE-000016",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-18T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000254",
+    "stop_name": "Stop 254 @ Zone 19 - Sector S",
+    "lat": 37.622641,
+    "lon": -122.595356,
+    "address_zone_id": "ZONE-000019",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-01T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000255",
+    "stop_name": "Stop 255 @ Zone 66 - Sector N",
+    "lat": 37.763492,
+    "lon": -122.470696,
+    "address_zone_id": "ZONE-000066",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000256",
+    "stop_name": "Stop 256 @ Zone 69 - Sector Q",
+    "lat": 37.780298,
+    "lon": -122.426165,
+    "address_zone_id": "ZONE-000069",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-03T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000257",
+    "stop_name": "Stop 257 @ Zone 31 - Sector E",
+    "lat": 37.76273,
+    "lon": -122.621111,
+    "address_zone_id": "ZONE-000031",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-17T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000258",
+    "stop_name": "Stop 258 @ Zone 36 - Sector J",
+    "lat": 37.896712,
+    "lon": -122.498966,
+    "address_zone_id": "ZONE-000036",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000259",
+    "stop_name": "Stop 259 @ Zone 3 - Sector C",
+    "lat": 37.690732,
+    "lon": -122.613951,
+    "address_zone_id": "ZONE-000003",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000260",
+    "stop_name": "Stop 260 @ Zone 36 - Sector J",
+    "lat": 37.908185,
+    "lon": -122.508068,
+    "address_zone_id": "ZONE-000036",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000261",
+    "stop_name": "Stop 261 @ Zone 16 - Sector P",
+    "lat": 37.677141,
+    "lon": -122.475605,
+    "address_zone_id": "ZONE-000016",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-20T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000262",
+    "stop_name": "Stop 262 @ Zone 65 - Sector M",
+    "lat": 37.701433,
+    "lon": -122.551072,
+    "address_zone_id": "ZONE-000065",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-21T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000263",
+    "stop_name": "Stop 263 @ Zone 70 - Sector R",
+    "lat": 37.736168,
+    "lon": -122.324909,
+    "address_zone_id": "ZONE-000070",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-20T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000264",
+    "stop_name": "Stop 264 @ Zone 26 - Sector @",
+    "lat": 37.871075,
+    "lon": -122.41824,
+    "address_zone_id": "ZONE-000026",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000265",
+    "stop_name": "Stop 265 @ Zone 63 - Sector K",
+    "lat": 37.637385,
+    "lon": -122.364748,
+    "address_zone_id": "ZONE-000063",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-22T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000266",
+    "stop_name": "Stop 266 @ Zone 72 - Sector T",
+    "lat": 37.64557,
+    "lon": -122.254866,
+    "address_zone_id": "ZONE-000072",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-02T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000267",
+    "stop_name": "Stop 267 @ Zone 52 - Sector @",
+    "lat": 37.73428,
+    "lon": -122.590443,
+    "address_zone_id": "ZONE-000052",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000268",
+    "stop_name": "Stop 268 @ Zone 31 - Sector E",
+    "lat": 37.769351,
+    "lon": -122.619931,
+    "address_zone_id": "ZONE-000031",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000269",
+    "stop_name": "Stop 269 @ Zone 65 - Sector M",
+    "lat": 37.704757,
+    "lon": -122.54895,
+    "address_zone_id": "ZONE-000065",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-29T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000270",
+    "stop_name": "Stop 270 @ Zone 24 - Sector X",
+    "lat": 37.846235,
+    "lon": -122.596094,
+    "address_zone_id": "ZONE-000024",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-06T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000271",
+    "stop_name": "Stop 271 @ Zone 53 - Sector A",
+    "lat": 37.88258,
+    "lon": -122.360222,
+    "address_zone_id": "ZONE-000053",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-12-01T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000272",
+    "stop_name": "Stop 272 @ Zone 16 - Sector P",
+    "lat": 37.63909,
+    "lon": -122.485135,
+    "address_zone_id": "ZONE-000016",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000273",
+    "stop_name": "Stop 273 @ Zone 26 - Sector @",
+    "lat": 37.877696,
+    "lon": -122.436309,
+    "address_zone_id": "ZONE-000026",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-07T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000274",
+    "stop_name": "Stop 274 @ Zone 49 - Sector W",
+    "lat": 37.655901,
+    "lon": -122.408371,
+    "address_zone_id": "ZONE-000049",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000275",
+    "stop_name": "Stop 275 @ Zone 37 - Sector K",
+    "lat": 37.867059,
+    "lon": -122.482282,
+    "address_zone_id": "ZONE-000037",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000276",
+    "stop_name": "Stop 276 @ Zone 71 - Sector S",
+    "lat": 37.871757,
+    "lon": -122.257831,
+    "address_zone_id": "ZONE-000071",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-20T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000277",
+    "stop_name": "Stop 277 @ Zone 77 - Sector Y",
+    "lat": 37.809857,
+    "lon": -122.223388,
+    "address_zone_id": "ZONE-000077",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-01T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000278",
+    "stop_name": "Stop 278 @ Zone 32 - Sector F",
+    "lat": 37.685578,
+    "lon": -122.606401,
+    "address_zone_id": "ZONE-000032",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000279",
+    "stop_name": "Stop 279 @ Zone 69 - Sector Q",
+    "lat": 37.761125,
+    "lon": -122.433384,
+    "address_zone_id": "ZONE-000069",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-15T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000280",
+    "stop_name": "Stop 280 @ Zone 31 - Sector E",
+    "lat": 37.764068,
+    "lon": -122.619462,
+    "address_zone_id": "ZONE-000031",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000281",
+    "stop_name": "Stop 281 @ Zone 46 - Sector T",
+    "lat": 37.781086,
+    "lon": -122.298164,
+    "address_zone_id": "ZONE-000046",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000282",
+    "stop_name": "Stop 282 @ Zone 33 - Sector G",
+    "lat": 37.707097,
+    "lon": -122.53198,
+    "address_zone_id": "ZONE-000033",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-09T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000283",
+    "stop_name": "Stop 283 @ Zone 39 - Sector M",
+    "lat": 37.775126,
+    "lon": -122.348705,
+    "address_zone_id": "ZONE-000039",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000284",
+    "stop_name": "Stop 284 @ Zone 42 - Sector P",
+    "lat": 37.65582,
+    "lon": -122.237223,
+    "address_zone_id": "ZONE-000042",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000285",
+    "stop_name": "Stop 285 @ Zone 63 - Sector K",
+    "lat": 37.61713,
+    "lon": -122.358545,
+    "address_zone_id": "ZONE-000063",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-22T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000286",
+    "stop_name": "Stop 286 @ Zone 67 - Sector O",
+    "lat": 37.635484,
+    "lon": -122.517109,
+    "address_zone_id": "ZONE-000067",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-13T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000287",
+    "stop_name": "Stop 287 @ Zone 54 - Sector B",
+    "lat": 37.628315,
+    "lon": -122.527068,
+    "address_zone_id": "ZONE-000054",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-08T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000288",
+    "stop_name": "Stop 288 @ Zone 72 - Sector T",
+    "lat": 37.662223,
+    "lon": -122.253517,
+    "address_zone_id": "ZONE-000072",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-11T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000289",
+    "stop_name": "Stop 289 @ Zone 56 - Sector D",
+    "lat": 37.801169,
+    "lon": -122.627196,
+    "address_zone_id": "ZONE-000056",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-23T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000290",
+    "stop_name": "Stop 290 @ Zone 14 - Sector N",
+    "lat": 37.829808,
+    "lon": -122.219925,
+    "address_zone_id": "ZONE-000014",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-01T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000291",
+    "stop_name": "Stop 291 @ Zone 29 - Sector C",
+    "lat": 37.673759,
+    "lon": -122.261518,
+    "address_zone_id": "ZONE-000029",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-12T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000292",
+    "stop_name": "Stop 292 @ Zone 15 - Sector O",
+    "lat": 37.773295,
+    "lon": -122.317145,
+    "address_zone_id": "ZONE-000015",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000293",
+    "stop_name": "Stop 293 @ Zone 45 - Sector S",
+    "lat": 37.812911,
+    "lon": -122.423916,
+    "address_zone_id": "ZONE-000045",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-05T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000294",
+    "stop_name": "Stop 294 @ Zone 32 - Sector F",
+    "lat": 37.714982,
+    "lon": -122.624516,
+    "address_zone_id": "ZONE-000032",
+    "is_approved": true,
+    "capacity_hint": 30,
+    "created_at": "2025-11-23T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000295",
+    "stop_name": "Stop 295 @ Zone 55 - Sector C",
+    "lat": 37.736469,
+    "lon": -122.409471,
+    "address_zone_id": "ZONE-000055",
+    "is_approved": true,
+    "capacity_hint": 25,
+    "created_at": "2025-11-30T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000296",
+    "stop_name": "Stop 296 @ Zone 14 - Sector N",
+    "lat": 37.850875,
+    "lon": -122.247092,
+    "address_zone_id": "ZONE-000014",
+    "is_approved": true,
+    "capacity_hint": 20,
+    "created_at": "2025-11-04T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000297",
+    "stop_name": "Stop 297 @ Zone 57 - Sector E",
+    "lat": 37.783945,
+    "lon": -122.535541,
+    "address_zone_id": "ZONE-000057",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-16T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000298",
+    "stop_name": "Stop 298 @ Zone 68 - Sector P",
+    "lat": 37.789225,
+    "lon": -122.342043,
+    "address_zone_id": "ZONE-000068",
+    "is_approved": true,
+    "capacity_hint": 15,
+    "created_at": "2025-11-24T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000299",
+    "stop_name": "Stop 299 @ Zone 50 - Sector X",
+    "lat": 37.821685,
+    "lon": -122.370757,
+    "address_zone_id": "ZONE-000050",
+    "is_approved": false,
+    "capacity_hint": 25,
+    "created_at": "2025-11-28T00:00:00Z"
+  },
+  {
+    "stop_id": "STOP-000300",
+    "stop_name": "Stop 300 @ Zone 62 - Sector J",
+    "lat": 37.78975,
+    "lon": -122.486365,
+    "address_zone_id": "ZONE-000062",
+    "is_approved": true,
+    "capacity_hint": null,
+    "created_at": "2025-11-05T00:00:00Z"
+  }
+]
